@@ -4,7 +4,8 @@ import shutil
 from configs import (
     KB_ROOT_PATH,
     SCORE_THRESHOLD,
-    logger, log_verbose,
+    logger,
+    log_verbose,
 )
 from server.knowledge_base.kb_service.base import KBService, SupportedVSType
 from server.knowledge_base.kb_cache.faiss_cache import kb_faiss_pool, ThreadSafeFaiss
@@ -30,9 +31,11 @@ class FaissKBService(KBService):
         return os.path.join(KB_ROOT_PATH, self.kb_name)
 
     def load_vector_store(self) -> ThreadSafeFaiss:
-        return kb_faiss_pool.load_vector_store(kb_name=self.kb_name,
-                                               vector_name=self.vector_name,
-                                               embed_model=self.embed_model)
+        return kb_faiss_pool.load_vector_store(
+            kb_name=self.kb_name,
+            vector_name=self.vector_name,
+            embed_model=self.embed_model,
+        )
 
     def save_vector_store(self):
         self.load_vector_store().save(self.vs_path)
@@ -54,33 +57,64 @@ class FaissKBService(KBService):
         self.clear_vs()
         shutil.rmtree(self.kb_path)
 
-    def do_search(self,
-                  query: str,
-                  top_k: int,
-                  score_threshold: float = SCORE_THRESHOLD,
-                  embeddings: Embeddings = None,
-                  ) -> List[Document]:
+    def do_search(
+        self,
+        query: str,
+        top_k: int,
+        score_threshold: float = SCORE_THRESHOLD,
+        embeddings: Embeddings = None,
+    ) -> List[Document]:
         with self.load_vector_store().acquire() as vs:
-            docs = vs.similarity_search_with_score(query, k=top_k, score_threshold=score_threshold)
+            docs = vs.similarity_search_with_score(
+                query, k=top_k, score_threshold=score_threshold
+            )
         return docs
 
-    def do_add_doc(self,
-                   docs: List[Document],
-                   **kwargs,
-                   ) -> List[Dict]:
+    def do_add_doc(
+        self,
+        docs: List[Document],
+        batch_size: int = 100,
+        **kwargs,
+    ) -> List[Dict]:
+
         with self.load_vector_store().acquire() as vs:
-            ids = vs.add_documents(docs)
+            if batch_size is None:
+                ids = vs.add_documents(docs)
+            else:
+                # TODO 想通文本问题
+                ids = []
+                total = len(docs)
+                progress = 0
+                # write docs into a file for debug
+                for split in range(0, len(docs), batch_size):
+                    _docs = docs[split : split + batch_size]
+                    with open("docs.txt", "a") as f:
+                        for doc in _docs:
+                            f.write(doc.page_content + "\n================\n")
+
+                    ids.extend(vs.add_documents(_docs))
+                    progress += batch_size
+                    import time
+
+                    time.sleep(30)
+                    logger.info(f"adding documents:  {progress}/{total}")
+
+                    if progress == 1000:
+                        break
+
             if not kwargs.get("not_refresh_vs_cache"):
                 vs.save_local(self.vs_path)
         doc_infos = [{"id": id, "metadata": doc.metadata} for id, doc in zip(ids, docs)]
         torch_gc()
         return doc_infos
 
-    def do_delete_doc(self,
-                      kb_file: KnowledgeFile,
-                      **kwargs):
+    def do_delete_doc(self, kb_file: KnowledgeFile, **kwargs):
         with self.load_vector_store().acquire() as vs:
-            ids = [k for k, v in vs.docstore._dict.items() if v.metadata.get("source") == kb_file.filepath]
+            ids = [
+                k
+                for k, v in vs.docstore._dict.items()
+                if v.metadata.get("source") == kb_file.filepath
+            ]
             if len(ids) > 0:
                 vs.delete(ids)
             if not kwargs.get("not_refresh_vs_cache"):
@@ -104,7 +138,7 @@ class FaissKBService(KBService):
             return False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     faissService = FaissKBService("test")
     faissService.add_doc(KnowledgeFile("README.md", "test"))
     faissService.delete_doc(KnowledgeFile("README.md", "test"))
