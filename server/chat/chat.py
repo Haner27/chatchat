@@ -33,6 +33,8 @@ async def chat(
         "default", description="使用的prompt模板名称(在configs/prompt_config.py中配置)"
     ),
 ):
+    import json
+
     # save all args into a json file
     with open("args.json", "w") as f:
         json.dump(locals(), f)
