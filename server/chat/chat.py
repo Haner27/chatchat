@@ -100,13 +100,13 @@ import asyncio
 import pickle
 
 
-def collect_streaming_response(response):
+async def collect_streaming_response(response):
     """
     Collect data from a StreamingResponse and print it.
     """
     content = []
-    for data in response.body_iterator:
-        content.append(data.decode())
+    async for data in response.body_iterator:
+        content.append(data)
     print("Response:", "".join(content))
 
 
@@ -114,7 +114,7 @@ async def test_chat():
     with open("args.pkl", "rb") as f:
         args = pickle.load(f)
     response = await chat(**args)
-    collect_streaming_response(response)
+    await collect_streaming_response(response)
 
 
 if __name__ == "__main__":
