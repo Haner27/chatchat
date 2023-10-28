@@ -102,8 +102,7 @@ def test_chat():
 
     with open("args.pkl", "rb") as f:
         args = pickle.load(f)
-    for i in chat(**args):
-        print(i)
+    chat(**args):
 
 
 if __name__ == "__main__":
