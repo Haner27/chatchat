@@ -100,7 +100,7 @@ async def chat(
 def test_chat():
     import pickle
 
-    with open("args.pkl", "r") as f:
+    with open("args.pkl", "rb") as f:
         args = pickle.load(f)
     for i in chat(**args):
         print(i)
