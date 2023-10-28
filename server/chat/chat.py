@@ -33,11 +33,11 @@ async def chat(
         "default", description="使用的prompt模板名称(在configs/prompt_config.py中配置)"
     ),
 ):
-    import json
+    import pickle
 
     # save all args into a json file
-    with open("args.json", "w") as f:
-        json.dump(locals(), f)
+    with open("args.pkl", "w") as f:
+        pickle.dump(locals(), f)
 
     history = [History.from_data(h) for h in history]
 
@@ -89,8 +89,10 @@ async def chat(
 
 # read args from json file and test chat
 def test_chat():
-    with open("args.json", "r") as f:
-        args = json.load(f)
+    import pickle
+
+    with open("args.pkl", "r") as f:
+        args = pickle.load(f)
     for i in chat(**args):
         print(i)
 
