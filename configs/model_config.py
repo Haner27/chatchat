@@ -1,6 +1,6 @@
 import os
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 MODEL_ROOT_PATH = ".models"
 MODEL_PATH = {
     "embed_model": {
