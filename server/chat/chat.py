@@ -96,14 +96,19 @@ async def chat(
     )
 
 
-# read args from json file and test chat
-def test_chat():
-    import pickle
+import asyncio
+import pickle
 
+# Sample async function for demonstration
+async def chat(**kwargs):
+    print(kwargs)
+
+
+async def test_chat():
     with open("args.pkl", "rb") as f:
         args = pickle.load(f)
-    chat(**args)
+    await chat(**args)
 
 
 if __name__ == "__main__":
-    test_chat()
+    asyncio.run(test_chat())
