@@ -99,10 +99,6 @@ async def chat(
 import asyncio
 import pickle
 
-# Sample async function for demonstration
-async def chat(**kwargs):
-    print(kwargs)
-
 
 async def test_chat():
     with open("args.pkl", "rb") as f:
