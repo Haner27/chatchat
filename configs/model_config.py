@@ -1,6 +1,6 @@
 import os
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 MODEL_ROOT_PATH = ".models"
 MODEL_PATH = {
     "embed_model": {
