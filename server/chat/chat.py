@@ -34,12 +34,19 @@ async def chat(
     ),
 ):
     import pickle
+
     args = dict(
-        query=query, history=history, stream=stream, model_name=model_name, temperature=temperature, max_tokens=max_tokens, prompt_name=prompt_name
+        query=query,
+        history=history,
+        stream=stream,
+        model_name=model_name,
+        temperature=temperature,
+        max_tokens=max_tokens,
+        prompt_name=prompt_name,
     )
     # save all args into a json file
     with open("args.pkl", "w") as f:
-        pickle.dump(, f)
+        pickle.dump(args, f)
 
     history = [History.from_data(h) for h in history]
 
