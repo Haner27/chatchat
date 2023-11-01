@@ -1,18 +1,19 @@
-import streamlit as st
-from webui_pages.utils import *
-from streamlit_chatbox import *
-from datetime import datetime
 import os
-from configs import (
-    LLM_MODEL,
-    TEMPERATURE,
-    HISTORY_LEN,
-    PROMPT_TEMPLATES,
-    DEFAULT_KNOWLEDGE_BASE,
-    DEFAULT_SEARCH_ENGINE,
-    LANGCHAIN_LLM_MODEL,
-)
-from typing import List, Dict
+
+from datetime import datetime
+from typing import Dict
+from typing import List
+
+import streamlit as st
+
+from streamlit_chatbox import *
+
+from configs import DEFAULT_KNOWLEDGE_BASE
+from configs import DEFAULT_SEARCH_ENGINE
+from configs import LANGCHAIN_LLM_MODEL
+from configs import LLM_MODEL
+from configs import PROMPT_TEMPLATES
+from webui_pages.utils import *
 
 chat_box = ChatBox(
     assistant_avatar=os.path.join("img", "chatchat_icon_blue_square_v2.png")
@@ -80,18 +81,19 @@ def dialogue_page(api: ApiRequest):
                     text = f"{text} 当前知识库： `{cur_kb}`。"
             st.toast(text)
 
-        dialogue_mode = st.selectbox(
-            "请选择对话模式：",
-            [
-                "LLM 对话",
-                "知识库问答",
-                "搜索引擎问答",
-                "自定义Agent问答",
-            ],
-            index=0,
-            on_change=on_mode_change,
-            key="dialogue_mode",
-        )
+        #        dialogue_mode = st.selectbox(
+        #            "请选择对话模式：",
+        #            [
+        #                "LLM 对话",
+        #                "知识库问答",
+        #                "搜索引擎问答",
+        #                "自定义Agent问答",
+        #            ],
+        #            index=0,
+        #            on_change=on_mode_change,
+        #            key="dialogue_mode",
+        #        )
+        dialogue_mode = "知识库问答"
 
         def on_llm_change():
             if llm_model:
@@ -112,6 +114,7 @@ def dialogue_page(api: ApiRequest):
         worker_models = list(
             config_models.get("worker", {})
         )  # 仅列出在FSCHAT_MODEL_WORKERS中配置的模型
+
         for m in worker_models:
             if m not in running_models and m != "default":
                 available_models.append(m)
@@ -133,14 +136,8 @@ def dialogue_page(api: ApiRequest):
                 st.session_state.get("cur_llm_model", get_default_llm_model(api)[0])
             )
 
-        llm_model = st.selectbox(
-            "选择LLM模型：",
-            llm_models,
-            index,
-            format_func=llm_model_format_func,
-            on_change=on_llm_change,
-            key="llm_model",
-        )
+        llm_model = "OpenAI"
+
         if (
             st.session_state.get("prev_llm_model") != llm_model
             and not llm_model in config_models.get("online", {})
@@ -173,16 +170,10 @@ def dialogue_page(api: ApiRequest):
             text = f"已切换为 {prompt_template_name} 模板。"
             st.toast(text)
 
-        prompt_template_select = st.selectbox(
-            "请选择Prompt模板：",
-            prompt_templates_kb_list,
-            index=0,
-            on_change=prompt_change,
-            key="prompt_template_select",
-        )
+        prompt_template_select = "default"
         prompt_template_name = st.session_state.prompt_template_select
-        temperature = st.slider("Temperature：", 0.0, 1.0, TEMPERATURE, 0.05)
-        history_len = st.number_input("历史对话轮数：", 0, 20, HISTORY_LEN)
+        temperature = 0.7
+        history_len = 3
 
         def on_kb_change():
             st.toast(f"已加载知识库： {st.session_state.selected_kb}")
@@ -193,13 +184,7 @@ def dialogue_page(api: ApiRequest):
                 index = 0
                 if DEFAULT_KNOWLEDGE_BASE in kb_list:
                     index = kb_list.index(DEFAULT_KNOWLEDGE_BASE)
-                selected_kb = st.selectbox(
-                    "请选择知识库：",
-                    kb_list,
-                    index=index,
-                    on_change=on_kb_change,
-                    key="selected_kb",
-                )
+                selected_kb = "d2l"
                 kb_top_k = st.number_input("匹配知识条数：", 1, 20, VECTOR_SEARCH_TOP_K)
 
                 ## Bge 模型会超过1
