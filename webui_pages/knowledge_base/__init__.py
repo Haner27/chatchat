@@ -1,1 +1,2 @@
 from .knowledge_base import knowledge_base_page
+from .real_knowledge_base import knowledge_base_page as real_knowledge_base_page

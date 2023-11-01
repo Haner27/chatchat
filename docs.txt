@@ -1,0 +1,1794 @@
+The Four Steps to
+
+the Epiphany
+
+The Four Steps to
+
+the Epiphany
+
+Successful Strategies for
+
+Products that Win
+
+Steven G. Blank
+
+Second Edition
+
+Third Edition Copyright © 2006 Steven G. Blank
+================
+Third Edition Copyright © 2006 Steven G. Blank
+
+All rights reserved. No part of this book may be reproduced in any form whatsoever without permission, except in case of brief quotations embodied in critical articles or reviews.
+
+Published 2006
+================
+Published 2006
+
+Printed by Lulu.com
+
+Third revised printing
+
+Acknowledgments | i
+
+Acknowledgments
+================
+In my 25 years as a technology entrepreneur I was lucky to have three extraordinary mentors, each brilliant in his own field: Ben Wegbreit who taught me how to think, Gordon Bell who taught me what to think about, and Allen Michels who showed me how
+================
+think about, and Allen Michels who showed me how to turn thinking into direct and immediate action. I was also extremely fortunate to be working in Silicon Valley when three of its most influential marketing practitioners and strategists were
+================
+marketing practitioners and strategists were active. As a VP of Marketing I was strongly influenced by the customer-centric books of Bill Davidow, former VP of Marketing of Intel and founder of Mohr, Davidow Ventures and consider myself fortunate to
+================
+Davidow Ventures and consider myself fortunate to have had him on my board at MIPS Computers. Regis McKenna was already a PR and marketing legend with his own firm when I started my career, but his thinking and practice still resonates in my work.
+================
+thinking and practice still resonates in my work. Finally, I still remember the hair rising on the back of my neck when I first read Geoff Moore and the notion of a “chasm.” It was the first time I realized that there were repeatable patterns of
+================
+I realized that there were repeatable patterns of business behavior that could explain the heretofore unexplainable. At U.C. Berkeley Haas Business School, Jerry Engel, director of the Lester Center on Entrepreneurship, was courageous enough to give
+================
+Entrepreneurship, was courageous enough to give me a forum to test and teach the Customer Development Methodology to hundreds of unsuspecting students. Professor John Freeman at Haas has offered valuable insight on the different sales cycles by
+================
+valuable insight on the different sales cycles by Market Type.
+================
+Finally my long-suffering teaching partner at Haas, Rob Majteles, ensured that not only did my students get my enthusiasm, but also got a coherent syllabus and their papers graded and back on time. At Stanford, Tom Byers, Mark Leslie, Audrey Maclean
+================
+Stanford, Tom Byers, Mark Leslie, Audrey Maclean and Mike Lyons were gracious enough to invite me to teach with them in the Graduate School of Engineering and hone my methodology as they offered additional insights on new product selling cycles.
+================
+insights on new product selling cycles. Finally, Columbia Business School allowed me to inflict the course and this text on their students in their joint MBA program with the Haas Business school. In the venture capital world in addition to funding
+================
+the venture capital world in addition to funding some of my startups, John Feiber at MDV and Katherine Gould at Foundation Capital have acted as stalwart sounding boards and supporters. My friends Steve Weinstein, Bob Dorf, Bernard Fraenkel, Todd
+================
+Steve Weinstein, Bob Dorf, Bernard Fraenkel, Todd Basche and Jim Wickett have made innumerable and valuable comments and suggestions. Will Harvey and Eric Ries of IMVU were the first corporate guinea pigs to implement some or all of the Customer
+================
+pigs to implement some or all of the Customer Development Methodology. This book was required reading for every new hire at their company. Fred Durham at CafePress allowed me to sit on his board and watch a world-class entrepreneur at work. Besides
+================
+watch a world-class entrepreneur at work. Besides running engineering at IMVU Eric Ries also moonlighted as copyeditor and helped eliminate the embarrassing typos of the first revision. This book would be much poorer without all of their
+================
+book would be much poorer without all of their contributions.
+================
+Finally, my wife Alison Elliott not only put up with my obsession with finding a methodology for early stage Customer Development, and my passion for teaching it, she added her wise counsel, insight and clarity to my thinking. This book would not
+================
+and clarity to my thinking. This book would not have happened without her.
+================
+Table of Contents
+================
+ACKNOWLEDGMENTS I THE HERO’S JOURNEY iii WINNERS AND LOSERS V CHAPTER 1   THE PATH TO DISASTER:  THE PRODUCT DEVELOPMENT MODEL 1 CHAPTER 2  THE PATH TO EPIPHANY:  THE CUSTOMER DEVELOPMENT MODEL 15 CHAPTER 3   CUSTOMER DISCOVERY 27 CHAPTER 4
+================
+15 CHAPTER 3   CUSTOMER DISCOVERY 27 CHAPTER 4   CUSTOMER VALIDATION 67 CHAPTER 5   CUSTOMER CREATION 101 CHAPTER 6   COMPANY BUILDING 133 BIBLIOGRAPHY 171 APPENDIX A   CUSTOMER DEVELOPMENT TEAM 175 APPENDIX B   CUSTOMER DEVELOPMENT CHECKLIST 181
+================
+APPENDIX B   CUSTOMER DEVELOPMENT CHECKLIST 181 ABOUT THE AUTHOR 231
+================
+The Hero’s Journey   | iii Preface The Hero’s Journey A legendary hero is usually the founder of something—the founder of a new age, the founder of a new religion, the founder of a new city, the founder of a new way of life. In order to found
+================
+founder of a new way of life. In order to found something new, one has to leave the old and go on a quest of the seed idea, a germinal idea that will have the potential of bringing forth that new thing. — Joseph Campbell, Hero with a Thousand Faces
+================
+Joseph Campbell popularized the notion of an archetypal journey that recurs in the mythologies and religions of cultures around the world. From Moses and the burning bush to Luke Skywalker meeting Obi wan Kenobi, the journey always begins with a
+================
+Obi wan Kenobi, the journey always begins with a hero who hears a calling to a quest. At the outset of the voyage, the path is unclear, and the end is not in sight. Each hero meets a unique set of obstacles, yet Campbell’s keen insight was that the
+================
+yet Campbell’s keen insight was that the outline of these stories was always the same. There were not a thousand different heroes, but one hero with a thousand faces.
+================
+The hero’s journey is an apt way to think of startups. All new companies and new products begin with an almost mythological vision–a hope of what could be, with a goal that few others can see. It’s this bright and burning vision that differentiates
+================
+bright and burning vision that differentiates the entrepreneur from big company CEOs and startups from existing businesses. Founding entrepreneurs are out to prove that their vision and business are real and not some hallucination; to succeed they
+================
+real and not some hallucination; to succeed they must abandon the status quo and strike out on what appears to be a new path, often shrouded in uncertainty. Obstacles, hardships and disaster lie ahead, and their journey to success tests more than
+================
+and their journey to success tests more than financial resources. It tests their stamina, agility, and the limits of courage. Most entrepreneurs feel their journey is unique. Yet what Campbell perceived about the mythological hero’s journey is true
+================
+about the mythological hero’s journey is true of startups as well: however dissimilar the stories may be in detail, their outline is always the same. Most entrepreneurs travel down the startup path without a roadmap and believe that no model or
+================
+without a roadmap and believe that no model or template could apply to their new venture. They are wrong. For the path of a startup is well worn, and well understood. The secret is that no one has written it down. Those of us who are serial
+================
+has written it down. Those of us who are serial entrepreneurs have followed our own hero’s journey and taken employees and investors with us. Along the way we’ve done things our own way; taking good advice, bad advice, and no advice.
+================
+On about the fifth or sixth startup, at least some of us began to recognize that there was an emerging pattern between our successes and failures. Namely, that there is a true and repeatable path to success, a path that eliminates or mitigates the
+================
+success, a path that eliminates or mitigates the most egregious risks and allows the company to grow into a large, successful enterprise. One of us decided to chart this path in the following pages.
+================
+Discovering the Path ”Customer Development” was born during my time spent consulting for the two venture capital firms who between them put $12 million into my last failed startup. (My mother kept asking if they were going to make me pay the money
+================
+if they were going to make me pay the money back. When I told her they not only didn’t want it back, but were trying to see if they could give me more for my next company, she paused for a long while and then said in a very Russian accent, “Only in
+================
+and then said in a very Russian accent, “Only in America are the streets paved with gold.”) Both venture firms sought my advice for their portfolio companies. Surprisingly, I enjoyed seeing other startups from an outsider’s perspective. To
+================
+other startups from an outsider’s perspective. To everyone’s delight, I could quickly see what needed to be fixed. At about
+================
+iv | The Four Steps to the Epiphany the same time, two newer companies asked me to join their boards. Between the board work and the consulting, I enjoyed my first-ever corporate “out-of-body experience.” No longer personally involved, I became a
+================
+No longer personally involved, I became a dispassionate observer. From this new vantage point I began to detect something deeper than I had seen before: there seemed to be a pattern in the midst of the chaos. Arguments that I had heard at my own
+================
+the chaos. Arguments that I had heard at my own startups seem to be repeated at others. The same issues arose time and again: big company managers versus entrepreneurs, founders versus professional managers, engineering versus marketing, marketing
+================
+managers, engineering versus marketing, marketing versus sales, missed schedule issues, sales missing the plan, running out of money, raising new money. I began to gain an appreciation of how world-class venture capitalists develop pattern
+================
+world-class venture capitalists develop pattern recognition for these common types of problems. “Oh yes, company X, they’re having problem 343. Here are the six likely ways that it will resolve, with these probabilities.” No one was actually quite
+================
+these probabilities.” No one was actually quite that good, but some VCs had “golden guts” for these kinds of operating issues. Yet something in the back of my mind bothered me. If great venture capitalists could recognize and sometimes predict the
+================
+could recognize and sometimes predict the types of problems that were occurring, didn’t that mean that the problems were structural rather than endemic? Wasn’t something fundamentally wrong with the way everyone organizes and manages startups?
+================
+Wasn’t it possible that the problems in every startup were somehow self-inflicted and could be ameliorated with a different structure? Yet when I talked to my venture capital friends, they said, “Well, that’s just how startups work. We’ve managed
+================
+that’s just how startups work. We’ve managed startups like this forever; there is no other way to manage them.” After my eighth and likely final startup, E.piphany, it became clear that there is a better a way to manage startups. Joseph Campbell’s
+================
+a way to manage startups. Joseph Campbell’s insight of the repeatable patterns in mythology is equally applicable to building a successful startup. All startups (whether a new division inside a larger corporation or in the canonical garage) follow
+================
+corporation or in the canonical garage) follow similar patterns—a series of steps which, when followed, can eliminate a lot of the early wandering in the dark. Looking back on startups that have thrived reflect this pattern again and again and
+================
+thrived reflect this pattern again and again and again. So what is it that makes some startups successful and leaves others selling off their furniture? Simply this: startups that survive the first few tough years do not follow the traditional
+================
+few tough years do not follow the traditional product- centric launch model espoused by product managers or the venture capital community. Through trial and error, hiring and firing, successful startups all invent a parallel process to product
+================
+startups all invent a parallel process to product development. In particular, the winners invent and live by a process of  customer learning and discovery.
+================
+I call this process “Customer Development,” a sibling to “Product Development,” and each and every startup that succeeds recapitulates it, knowingly or not. This book describes the “Customer Development” model in detail. The model is a paradox
+================
+model in detail. The model is a paradox because it is followed by successful startups, yet articulated by no one. Its basic propositions are the antithesis of common wisdom yet they are followed by those who succeed. It is the path that is hidden in
+================
+who succeed. It is the path that is hidden in plain sight.
+================
+Winners and Losers  |  v Introduction Winners and Losers What if everything you think you know about taking products to market is wrong? What would you do differently if you realized that only 1 out of 10 new product introductions result in a
+================
+1 out of 10 new product introductions result in a profitable business? Would you continue to operate the same way, week after week, year after year? The surprising fact is that companies large and small, established corporate giants as well as brand
+================
+established corporate giants as well as brand new startups, fail in 9 out of 10 attempts to launch their new products. They unnecessarily burn through billions of dollars as they try to force their new products into markets where no one is waiting
+================
+new products into markets where no one is waiting to buy. Yet time and again they all return to the same processes that produce failure. The phenomenon occurs over and over again in every product category, whether high tech, low tech, consumer
+================
+category, whether high tech, low tech, consumer products, or business-to-business products. Some new product disasters have become the stuff of legend: • Volkswagen Phaeton. Volkswagen took all of Toyota’s lessons in launching it’s high-end Lexus
+================
+Toyota’s lessons in launching it’s high-end Lexus brand and ignored them. Cost to date: $500 million • Kodak’s Photo CD. Kodak offered film camera customers the ability to put their pictures on a compact disc and view them on their TV’s. It was 10
+================
+disc and view them on their TV’s. It was 10 years ahead of its time and marketed to customers who were not ready for it. Viable early adopter market in corporate marketing departments ignored. Cost: $150 Million • Segway.
+================
+Thought their market was everyone in the world who walked and confused world class public relations with customers with checkbooks. Still searching for their real markets. Cost to date:  $200 million. • Apple’s Newton. They were right about the
+================
+• Apple’s Newton. They were right about the Personal Digital Assistant market but five years too soon. Yet they spent like they were in an existing market. Cost: $100 Million • Jaguar X-Type. Created a Ford-type, low-end product and slapped the Jag
+================
+a Ford-type, low-end product and slapped the Jag name on it, alienating their high-end customers. Cost: $200 million • Webvan. Groceries on demand: the killer app of the internet. The company spent money like a drunken sailor. Even in the Internet
+================
+money like a drunken sailor. Even in the Internet Bubble costs and infrastructure grew faster than the customer base. Loss:  $800 million. • Sony’s MiniDisc players. A smaller version of the CD wildly popular in Japan. The US isn’t Japan. Cost to
+================
+popular in Japan. The US isn’t Japan. Cost to date:  $500 million after 10 years of marketing. • R.J. Reynolds’ Premier and Eclipse smokeless cigarettes. Understood what the general public (nonsmokers) wanted, but did not understand that their
+================
+wanted, but did not understand that their customers didn’t care. Cost: $450 million • Motorola’s Iridium satellite-based phone system. Engineering triumph and built to support a customer base of millions. No one asked the customer if they wanted it.
+================
+No one asked the customer if they wanted it. Cost $5 billion. Yes, billion. Satellites are awfully expensive.
+================
+I could go on and on. And you probably have your own favorites you could add to the list. What if I told you that such disasters can be avoided? What if I told you that there are new product introduction methods available that dramatically increase
+================
+methods available that dramatically increase the odds of a new product finding a home --  and at a minimum that guarantee that there will be a ready, willing, and paying customer base just waiting to get their hands on that new, new thing being
+================
+to get their hands on that new, new thing being lovingly grown in the R& D greenhouse? The methods I’m advocating in this book -- are easily explained and understood, but they run counter to the way most companies operate. There aren’t many managers
+================
+companies operate. There aren’t many managers around who are willing to reject the conventional wisdom that guides most firms in their quest to take new products to market. Those managers and entrepreneurs who do follow this different path find that
+================
+who do follow this different path find that there are eager customers for their products. To name a few who did it right in their recent, very successful product launches:
+================
+vi | The Four Steps to the Epiphany • Proctor & Gamble’s Swiffer. A swiveling, disposable mop-on-a-stick. Sophisticated planning and consumer research have resulted in a $2.1 billion market in 2003 that could double by 2008. • Toyota’s Prius.
+================
+2003 that could double by 2008. • Toyota’s Prius. They’ve found a profitable niche for their electric hybrid car. As a classic disruptive innovation, sales will grow and Toyota will continue to eat the existing US car companies for lunch. In its
+================
+the existing US car companies for lunch. In its first five years sales grew to $5 billion. By 2015 hybrids could make up 35% of U.S. car market. • General Mills’ Yoplait GoGurt. Yogurt in a tube. The goal was to keep their yogurt consumer base of
+================
+goal was to keep their yogurt consumer base of toddlers and little kids for as long as possible. Research led to the tube packaging, making yogurt easier to consume on the go.
+================
+The Difference between the Winners and Losers Every company has some methodology for product development, launch and life-cycle management. These processes provide detailed plans, checkpoints and goals for every step in getting a product out the
+================
+goals for every step in getting a product out the door; sizing markets, estimating sales, developing marketing requirements documents, prioritizing product features. Yet at the end of the day even with all these procedures the embarrassing fact is
+================
+all these procedures the embarrassing fact is that 9 out of 10 of new products are failures. The difference between the winners and losers is simple. Products developed with senior management out in front of customers early and often - win. Products
+================
+of customers early and often - win. Products handed off to a sales and marketing organization that has only been tangentially involved in the new product development process lose. It’s that simple. The reality for most companies today is that
+================
+The reality for most companies today is that existing product introduction methodologies are focused on activities that go on inside a company own building. While customer input may be a checkpoint or “gate” in the process it doesn’t drive it. This
+================
+“gate” in the process it doesn’t drive it. This book is not another set of product development processes that are simple extensions of what already exists. New product mortality rates tell us that doesn’t work; the emperor simply has no clothes.
+================
+doesn’t work; the emperor simply has no clothes. Existing new product launch processes don’t offer prediction and guidance of customer behavior, therefore we need to build a new set of product development processes that will.
+================
+What this book offers is a radical reexamination of the entire new product introduction process. It makes clear that companies need a parallel process to product development; one dedicated to bringing customers and their needs head first into the
+================
+customers and their needs head first into the new product introduction process – before the product is ever launched or shipped. The lesson is clear:  by listening to potential future customers’, by going out into the field and investigating
+================
+by going out into the field and investigating potential customers needs and markets before being inexorably committed to a specific path and precise product specs – the difference between the winners and losers – and that’s the Customer Development
+================
+and losers – and that’s the Customer Development Process described in this book.
+================
+Who Is This Book For? When I first started writing this book, I thought its audience would be small and its applicability would be narrow. I first believed that my readers would be startup entrepreneurs. With this audience in mind, I went out to
+================
+With this audience in mind, I went out to talk to venture capital firms and their portfolio company startups to test the Customer Development concepts. Many of these startups were past the “we’re just starting out” stage. At first, I thought the
+================
+just starting out” stage. At first, I thought the Customer Development model might be interesting reading for them, but not particularly germane to CEOs and other executives who were in the midst of building a company. This group had real day-to-day
+================
+a company. This group had real day-to-day operational problems to solve, and the last thing on their minds was to read some abstruse text about what they should have done last year. But the more I talked to these startups and spent time
+================
+more I talked to these startups and spent time understanding their issues, the more I realized that they were all under pressure to solve a common set of problems: Where is our market? Who are our customers? How do we build the right team? How do we
+================
+How do we build the right team? How do we scale sales? These issues are at the heart of the Customer Development methodology.
+================
+Winners and Losers   | vii Not surprisingly, there is a large body of literature on the success and failure of new products in large companies. The more I read and then talked to large corporations, the more I became convinced that the Customer
+================
+the more I became convinced that the Customer Development model is even more applicable to existing companies attempting to launch new products into new markets. The challenge of understanding customers and finding a market is the same for a large
+================
+and finding a market is the same for a large company as for a startup. But large companies have established well- defined processes and procedures that are the antithesis of the Customer Development model. In other words, the guidelines for starting
+================
+In other words, the guidelines for starting a new product in a new market are the antithesis of the well- honed rules observed by large and successful enterprises. Indeed, those rules are a recipe for failure when it comes to a startup-like
+================
+for failure when it comes to a startup-like initiative. The cost of launching new products into new markets can exceed the absolute dollars a startup spends by several orders of magnitude. While the expected returns are huge, making these type of
+================
+expected returns are huge, making these type of mistakes in a large company can be catastrophic. Finally, I had found my audience for this book: any team launching a new product, from a small entrepreneurial startup to a large corporation. This book
+================
+startup to a large corporation. This book is not just for the CEO but all executives and employees of early stage ventures; it’s for all the founders, the engineers, the VP of Sales, the VP of Marketing, etc.
+================
+– anyone who is struggling to come up with answers on how to find customers and markets. This book will help all of you to bring rigor to the Customer Development Process. Throughout this book, I use the terms entrepreneur and startup quite
+================
+I use the terms entrepreneur and startup quite liberally. The terms encompass the brave souls in Fortune 1000 companies just as much as they describe three teens starting in a garage. This or any road map will only take you where you want to go if
+================
+map will only take you where you want to go if you have the discipline to follow it, together with the vision and passion that characterize the best entrepreneurs. As with great artists, these are innate qualities that make successful serial
+================
+are innate qualities that make successful serial entrepreneurs a rare breed. Relentless execution is also something that is hard to get from a book. It is best learned by being thrown out of the offices of countless prospective customers as you try
+================
+of countless prospective customers as you try to learn what appeals to them. It means getting off the floor and going back to a customer who said “no” and finding out how to turn that into a “yes.” This book will point the way. Completing your own
+================
+This book will point the way. Completing your own hero’s journey is up to you.
+================
+Who Is This Book Not For? There are cases where using the Customer Development methodology is inappropriate. There are businesses where the aphorism “build and they will come” is actually true. For example, in biotechnology startups, if you could
+================
+example, in biotechnology startups, if you could can find a drug which cures a specific cancer, a Customer Development strategy is simply a waste of time; it doesn’t take a formal process to figure out that there will be huge end user demand for the
+================
+that there will be huge end user demand for the drug. The risk in biotechnology companies is in the front-end of product development; taking a research hypothesis and developing into a successful and effective drug, not in the back-end  of customer
+================
+effective drug, not in the back-end  of customer acceptance and adoption. In a biotechnology startup success and failure are not about understanding customer needs or adoption. If the company can develop a product that works and get it through the
+================
+a product that works and get it through the FDA approval process, customers would literally be dying to get it. In these companies to get to a Phase III trial (for Controlled Safety and Efficacy, the last step before submitting a New Drug
+================
+the last step before submitting a New Drug Application to the FDA), a company has typically spent four and a half years in clinical trials and nearly $50 million. For these ventures, the issue isn’t Customer Development to understand end user needs,
+================
+Development to understand end user needs, but rather finding the right Partner, Licensing and Distribution Channel strategies. Similar issues can be found in some health care and energy products. The users and markets are known and if a product can
+================
+users and markets are known and if a product can development business is assured.
+================
+However, our contention is that in the past, most entrepreneurs in every early stage venture believed that “build it and they will come” described their company. Our contention is that it only covers the few, not the many. For the rest of us, where
+================
+the few, not the many. For the rest of us, where the issues are customer acceptance and market adoption, this book shows the path.
+================
+Chapter 1: The Path to Disaster   | 1 Chapter 1 The Path to Disaster: The Product Development Model “… for the gate is wide and the road broad that leads to destruction, and those who enter through it are many.” — Matthew 7:13 Every traveler starts
+================
+are many.” — Matthew 7:13 Every traveler starts a journey faced with the decision of what road to take. The road well traveled seems like the obvious choice. The same is true in the search for startup success: following a path of common wisdom – one
+================
+success: following a path of common wisdom – one taken by scores of startups before, seems like the right way. Yet the advice offered two thousand years ago is relevant for startups today, namely that the wide road often leads straight to disaster.
+================
+the wide road often leads straight to disaster. How and why this is so is the subject of this chapter. Let me begin with a cautionary tale. In the heyday of the dot-com bubble, Webvan stood out as one of the most electrifying new startups, with an
+================
+of the most electrifying new startups, with an idea that would potentially touch every household. Raising one of the largest financial war chests ever seen (over $800 million in private and public capital), the company aimed to revolutionize the
+================
+capital), the company aimed to revolutionize the $450 billion retail grocery business with online ordering and same-day delivery of household groceries. Webvan believed this was a “killer application” for the Internet. No longer would people have to
+================
+for the Internet. No longer would people have to leave their homes to shop. They could just point, click, and order.
+================
+Webvan’s CEO told ForbesT magazine that Webvan would “set the rules for the largest consumer sector in the economy.” Besides amassing megabucks, the Webvan entrepreneurs seemed to do everything right. The company raced to build vast automated
+================
+right. The company raced to build vast automated warehouses and purchased fleets of delivery trucks, while building an easy-to-use web site. Webvan hired a seasoned CEO from the consulting industry, backed by experienced venture capital investors.
+================
+backed by experienced venture capital investors. What’s more, most of their initial customers actually liked their service. Barely 24 months after the initial public offering, Webvan was bankrupt and out of business. What happened? It wasn’t a
+================
+and out of business. What happened? It wasn’t a failure of execution. Webvan did everything its board and investors asked. In particular, the company fervently followed the traditional product development model commonly used by startups, including
+================
+model commonly used by startups, including “get big fast,” the mantra of the time. Webvan management followed the product development model religiously. Its failure to ask “Where Are the Customers?” illuminates how a tried-and-true model can lead
+================
+illuminates how a tried-and-true model can lead even the best-funded, best-managed startup to disaster. THE PRODUCT DEVELOPMENT DIAGRAM Every company bringing a new product to market uses some form of Product Development Model. (Figure 1.1)
+================
+form of Product Development Model. (Figure 1.1)   Emerging early in the twentieth century, this product-centric model described a process that evolved in manufacturing industries.
+================
+It was adopted by the consumer packaged goods industry in the 1950s and spread to the technology business in the last quarter of the twentieth century. It has become an integral part of startup culture. At first glance, the diagram appears helpful
+================
+At first glance, the diagram appears helpful and benign, illustrating the process of getting a new product into the hands of waiting customers. Ironically, the model is a good fit when launching a new product into an established, well-defined market
+================
+product into an established, well-defined market where the basis of competition is understood, and its customers are known. The irony is that few startups fit these criteria. Few even know what their market is. Yet they persist in using the product
+================
+market is. Yet they persist in using the product development model not only to manage product development, but as a road map for finding customers and to time their sales launch and revenue plan. The model has
+================
+2 | The Four Steps to the Epiphany become a catchall tool for every startup executive’s schedule, plan, and budget. Investors use the product development diagram to set and plan funding. Everyone involved uses a road map that was designed for a very
+================
+uses a road map that was designed for a very different location, yet they are surprised when they end up lost.
+================
+Figure 1.1  The Product Development Diagram To see what’s wrong with using the product development model as a guide to building a startup, let’s first look at how the model is currently used to launch a new product. We’ll view the actions at each
+================
+a new product. We’ll view the actions at each step in two ways: in general practice and in the specific example of Webvan, which managed to burn through $800 million in 3 years. Then we will dissect the model’s toxic consequences for startups.
+================
+the model’s toxic consequences for startups. What’s wrong with the old model in general, and how were those wrongs compounded in the billion-dollar Webvan implosion? Lets look at the model stage-by-stage.
+================
+Concept and Seed Stage In the Concept and Seed Stage, founders capture their passion and vision for the company and turn them into a set of key ideas, which quickly becomes a business plan, sometimes on the back of the proverbial napkin. The first
+================
+on the back of the proverbial napkin. The first thing captured and wrestled to paper is the company’s vision. Next, issues surrounding the product need to be defined: What is the product or service concept? Is it possible to build? Is further
+================
+concept? Is it possible to build? Is further technical research needed to ensure that the product can be built? What are the product features and benefits? Second, who will the customers be and where will they be found? Statistical and market
+================
+where will they be found? Statistical and market research data plus potential customer interviews determine whether the ideas have merit. Step three probes how the product will ultimately reach the customer and the potential distribution channel. At
+================
+and the potential distribution channel. At this stage that companies start thinking about who their competitors are, and how they differ. They draw their first positioning chart and use it to explain the company and its benefits to venture
+================
+explain the company and its benefits to venture capitalists. The distribution discussion leads to some basic assumptions about pricing. Combined with product costs, an engineering budget, and schedules, this results in a spreadsheet that faintly
+================
+this results in a spreadsheet that faintly resembles the first financial plan in the company’s business plan. If the startup is to be backed by venture capitalists, the financial model has to be alluring as well as believable.
+================
+If it’s a new division inside a larger company, forecasts talk about return on investment. Creative writing, passion, and shoe leather combine in this concept and seed phase in hopes of convincing an investor to fund the company or the new division.
+================
+investor to fund the company or the new division. Webvan did all of this extremely well. Founded in December 1996, with a compelling story, and a founder with a track record, Webvan raised $10 million from leading Silicon Valley venture capitalists
+================
+from leading Silicon Valley venture capitalists in 1997. In the next two years, additional private rounds totaling an unbelievable $393 million would follow before the company’s IPO (initial public offering).
+================
+Product Development In stage two, product development, everyone stops talking and starts working. The respective departments go to their virtual corners as the company begins to specialize by functions. Engineering focuses on building the product;
+================
+Engineering focuses on building the product; it designs the product, specifies the first release and hires a staff to build the product. It takes the simple box labeled “product development” and makes detailed critical path method charts, with key
+================
+detailed critical path method charts, with key milestones. With that information in hand, Engineering estimates delivery dates and development costs. Concept/ Seed Product Development Alpha/Beta Test Launch/ 1st Ship
+================
+Chapter 1: The Path to Disaster   | 3 Meanwhile, Marketing refines the size of the market defined in the business plan (a market is a set of companies with common attributes), and begins to target the first customers. In a well- organized startup
+================
+the first customers. In a well- organized startup (one with a fondness for process) the marketing folk might even run a focus group or two on the market they think they are in and prepare a Marketing Requirements Document (MRD) for Engineering.
+================
+Requirements Document (MRD) for Engineering. Marketing starts to build a sales demo, writes sales materials (presentations, data sheets), and hires a PR agency. In this stage, or by alpha test, the company traditionally hires a VP of Sales. In
+================
+the company traditionally hires a VP of Sales. In Webvan’s case, Engineering moved along two fronts: building the automated warehouses and designing the web site. The automated warehouses were a technological marvel, far beyond anything existing
+================
+marvel, far beyond anything existing grocery chains had. Automated conveyors and carousels transported food items off of the warehouse shelves to workers who packed them for delivery. Webvan also designed its own inventory management, warehouse
+================
+designed its own inventory management, warehouse management, route management, and materials handling systems and software to manage the entire customer ordering and delivery flow process. This software communicated with the Webvan web site and
+================
+communicated with the Webvan web site and issued instructions to the various mechanized areas of the distribution center to fulfill orders. Once a delivery was scheduled, a route-planning feature of the system determined the most efficient route to
+================
+the system determined the most efficient route to deliver goods to the customer's home.
+================
+At the same time, the planning began for a marketing and promotion program designed to strengthen the Webvan brand name, get customers to try the service in the first target market, build strong customer loyalty, and maximize repeat usage and
+================
+customer loyalty, and maximize repeat usage and purchases. The plan was to build Webvan’s brand name and customer loyalty through public relations programs, advertising campaign, and promotional activities.
+================
+Alpha/Beta Test In stage three, alpha/beta test, Engineering works with a small group of outside users to make sure that the product works as specified and tests it for bugs. Marketing develops a complete marketing communications plan, provides
+================
+complete marketing communications plan, provides Sales with a full complement of support material, and starts the public relations bandwagon rolling. The PR agency polishes the positioning and starts contacting the long lead-time press while
+================
+starts contacting the long lead-time press while Marketing starts the branding activities. Sales signs up the first beta customers (who volunteer to pay for the privilege of testing a new product), begins to build the selected distribution channel,
+================
+to build the selected distribution channel, and staffs and scales the sales organization outside the headquarters. The venture investors start measuring progress by number of orders in place by first customer ship. Hopefully, somewhere around this
+================
+customer ship. Hopefully, somewhere around this point the investors are happy with the company’s product and its progress with customers, and the investors are thinking of bringing in more money. The CEO refines his or her fund-raising pitch and
+================
+The CEO refines his or her fund-raising pitch and hits the street and the phone searching for additional capital. Webvan began to beta-test its grocery delivery service in May 1999 to approximately 1,100 people. At the same time, the marketing buzz
+================
+people. At the same time, the marketing buzz started with a PR blitz as hundreds of articles appeared touting the newest entrant in the online grocery business. Private investors poured hundreds of millions of dollars into the company.
+================
+Product Launch and First Customer Ship Product launch and first customer ship is the final step in this model, and what the company has been driving for. With the product working (sort of), the company goes into “big bang” spending mode. Sales is
+================
+goes into “big bang” spending mode. Sales is heavily building and staffing a national sales organization; the sales channel has quotas and sales goals. Marketing is at its peak. The company has a large press event, and Marketing launches a series of
+================
+press event, and Marketing launches a series of programs to create end-user demand (trade shows, seminars, advertising, email, and so on). The board begins measuring the company’s performance on sales execution against its business plan (which
+================
+sales execution against its business plan (which typically was written a year or more earlier, when the entrepreneur was looking for initial investments). Building the sales channel and supporting the marketing can burn a lot of cash. Assuming no
+================
+the marketing can burn a lot of cash. Assuming no early liquidity (via an IPO or merger) for the company, more fund raising is required. The CEO looks
+================
+4 | The Four Steps to the Epiphany at the product launch activities and the scale-up of the sales and marketing team, and yet again goes out, palm up, to the investor community. (In the dot-com bubble economy, the investors used an IPO at product
+================
+economy, the investors used an IPO at product launch to take the money and run, before there was a track record of success or failure.) If you’ve ever been involved in a startup, the operational model no doubt sounds familiar. It is a
+================
+model no doubt sounds familiar. It is a product-centric and process-centric model used by countless startups to take their first product to market. Webvan launched its first regional Webstore in June 1999 (just one month after starting beta test)
+================
+1999 (just one month after starting beta test) and filed for its public offering 60 days later. The company raised $400 million and had a market capitalization of $8.5 billion the day of its IPO—larger than the top three grocery chains combined.
+================
+than the top three grocery chains combined. WHAT’S WRONG WITH THIS PICTURE? Given that the product development model is used by almost every organization launching a new product, asking what’s wrong with it might seem as heretical as asking “What’s
+================
+with it might seem as heretical as asking “What’s wrong with breathing?” Nevertheless, for Webvan and thousands of other startups, it has failed miserably. The first hint lies in its name; this is a product development model. Not a marketing model,
+================
+product development model. Not a marketing model, not a sales hiring model, not a customer acquisition model, not even a financing model. Yet startup companies have traditionally used a product development model to manage and pace all these non-
+================
+model to manage and pace all these non- engineering activities.
+================
+The misnamed process is merely a hint of the ten major flaws of the product development model.
+================
+1. Where Are the Customers?TP PT To begin with, the product development diagram completely ignores the fundamental truth about startups and all new products. The greatest risk—and hence the greatest cause of failure—in startups is not in the
+================
+cause of failure—in startups is not in the development of the new product but in the development of customers and markets. Startups don’t fail because they lack a product; they fail because they lack customers and a proven financial model. This
+================
+lack customers and a proven financial model. This alone should be a pretty good clue about what’s wrong with using the product development diagram as the sole guide to what a startup needs to be doing. Look at the Product Development model and ask
+================
+Look at the Product Development model and ask “where are the customers?”
+================
+2. The Focus on First Customer Ship Date Using the Product Development model forces sales and marketing to focus on the first customer ship date. Most competent sales and marketing executives look at the first customer ship date, look at the
+================
+look at the first customer ship date, look at the calendar on the wall, and then work backwards figuring out how to do their job in time so that the fireworks start the day the product is launched. The flaw in this thinking is that the “first
+================
+The flaw in this thinking is that the “first customer ship” is only the date when Product Development thinks they are “finished” building the product. The first customer ship date does not mean that the company understands its customers or how to
+================
+the company understands its customers or how to market or sell to them. (Read the preceding sentence again. It’s a big idea.) Yet in almost every startup, ready or not, the sales, marketing, and business development people are busy setting their
+================
+development people are busy setting their departmental watches to the first customer ship date. Even worse, a startup’s investors are managing their financial expectations by this date as well. The chorus of investor voices say, “Why of course
+================
+The chorus of investor voices say, “Why of course that’s what you do. Getting the product to market is what sales and marketing people do in startups. That’s how a startup makes money.” That’s deadly bad advice. Ignore it. Focusing only on first
+================
+bad advice. Ignore it. Focusing only on first customer ship results in a “Fire, Ready, Aim” strategy. Obviously, your new division or company wants to get a product to market and sell it, but that cannot be done until you understand who you are
+================
+cannot be done until you understand who you are selling your product to and why they will buy it.
+================
+The product development model is so focused on building and shipping the product that it ignores the entire process of what I call Customer Discovery—a fundamental and, in fact, fatal error. Think about every startup you’ve been in or known about.
+================
+every startup you’ve been in or known about. Hasn’t the focus been on first customer ship dates? Hasn’t the energy, drive, and focus been on finishing the product and getting it to market? Think about what happens after the first customer ship party
+================
+what happens after the first customer ship party is over, the champagne is
+================
+Chapter 1: The Path to Disaster   | 5 flat, and the balloons are deflated. Sales now has to find the quantity of customers that the company claimed it could find when it first wrote its business plan. Sure, Sales may have found a couple of “beta”
+================
+Sure, Sales may have found a couple of “beta” customers, but were they representative of a scalable mainstream market? (A mainstream market is where the majority of people in any market segment reside. They tend to be risk-averse, pragmatic
+================
+reside. They tend to be risk-averse, pragmatic purchasers.) Time after time, only after first customer ship do startups discover that their early customers don’t scale into a mainstream market, or that the product doesn’t solve a high value problem,
+================
+the product doesn’t solve a high value problem, or that the cost of distribution is too high. While that’s bad enough, these startups are now burdened with an expensive, scaled-up sales organization that is getting frustrated trying to execute a
+================
+that is getting frustrated trying to execute a losing sales strategy and a marketing organization desperately trying to create demand without a true understanding of customers’ needs. And as Marketing and Sales flail around in search of a
+================
+Marketing and Sales flail around in search of a sustainable market the company is burning through its most precious asset—cash. At Webvan, the dot-com mania may have intensified their inexorable drive to first customer ship, but its single-minded
+================
+to first customer ship, but its single-minded focus was typical of most startups. At first customer ship, Webvan had close to 400 employees. It hired over 500 more during the next six months.
+================
+By May 1999 the company opened its first $40 million distribution center, built and scaled for a customer base it could only guess at, and had committed to 15 other distribution centers of the same size. Why? Because the Webvan business plan said
+================
+size. Why? Because the Webvan business plan said that was the goal—regardless of whether the customer results agreed.
+================
+3. An Emphasis on Execution Instead of Learning and Discovery In startups the emphasis is on “get it done, and get it done fast.” So it’s natural that heads of Sales and Marketing believe they are hired for what they know, not what they can learn.
+================
+for what they know, not what they can learn. They assume their prior experience is relevant in this new venture. Therefore they need to put that knowledge to work and execute the sales and marketing programs that have worked for them before. This is
+================
+that have worked for them before. This is usually a faulty assumption. Before we can sell a product, we have to ask and answer some very basic questions: What are the problems that our product solves? Do customers perceive these problems that as
+================
+Do customers perceive these problems that as important or “must have?” If we’re selling to businesses, who in a company has a problem that our product could solve? If we are selling to consumers how do we reach them? How big is this problem? Who do
+================
+do we reach them? How big is this problem? Who do we make the first sales call on? Who else has to approve the purchase? How many customers do we need to be profitable? What’s the average order size? Most entrepreneurs will tell you “I know all the
+================
+Most entrepreneurs will tell you “I know all the answers already. Why do I have to go do it again.”  It’s human nature that what you think you know is not always what you know. A little humility go far. Your past experience may not be relevant for
+================
+far. Your past experience may not be relevant for your new company. If you really do know the answers to the customer questions, the Customer Development process will go quickly and it will reaffirm your understanding.
+================
+A company needs to answer these questions before it can successfully ramp up sales and sell. For startups in a new market, these are not merely execution activities; they are learning and discovery activities that are critical to the company’s
+================
+activities that are critical to the company’s success or failure. Why is this distinction important? Take another look at the product development diagram. Notice it has a nice linear flow from left to right. Product development, whether it is
+================
+left to right. Product development, whether it is intended for large companies or consumers, is a step-by-step, execution-oriented process. Each step happens in a logical progression that can be PERT charted, (a project management technique for
+================
+PERT charted, (a project management technique for determining how much time a project needs before it is completed,) with milestones and resources assigned to completing each step. Yet anyone who has ever taken a new product out to a set of
+================
+who has ever taken a new product out to a set of potential customers can tell you that a good day in front of customers is two steps forward and one step back. In fact, the best way to represent what happens outside the building is more like a
+================
+what happens outside the building is more like a series of recursive circles—recursive to represent the iterative nature of what actually happens in a learning and discovery environment. Information and data are gathered about customers and markets
+================
+and data are gathered about customers and markets incrementally, one step at a time. Yet sometimes those steps take you in the wrong direction or down a blind alley. You find yourself calling on the wrong customers, not understanding why people will
+================
+customers, not understanding why people will buy, not understanding what product features are important.
+================
+The ability to learn from those missteps is what distinguishes a successful startup from those whose names are forgotten among the vanished. Like all startups focused on executing to plan, Webvan hired a vice president of merchandising, a vice
+================
+hired a vice president of merchandising, a vice president of marketing and a vice president of product management—three groups that were
+================
+6 | The Four Steps to the Epiphany oriented around executing a sales strategy, not learning and discovering customer needs. Sixty days after first customer ship these three groups employed over fifty people.
+================
+4. The Lack of Meaningful Milestones for Sales, Marketing and Business Development The one great thing you can say about the product development methodology is that it provides an unambiguous structure with clearly defined milestones. The meaning of
+================
+with clearly defined milestones. The meaning of alpha test, beta test, and first customer ship are pretty obvious to most engineers. If the product fails to work, you stop and fix it. In stark contrast, sales and marketing activities before first
+================
+sales and marketing activities before first customer ship are adhoc, fuzzy, and absent measurable, concrete objectives. They lack any way to stop and fix what’s broken (or even to know if it is broken, or how to stop at all). What kind of objectives
+================
+or how to stop at all). What kind of objectives would a startup want or need? That’s the key question. Most sales executives and marketers tend to focus on execution activities because at least these are measurable. For example, in sales, the number
+================
+are measurable. For example, in sales, the number one thing that matters is revenue. Sales uses revenue as its marker of progress in understanding customers. Some startup sales execs also believe hiring the core sales team is a key objective. Others
+================
+the core sales team is a key objective. Others focus on acquiring early “lighthouse” customers (prominent customers who will attract others.) Marketers believe creating corporate presentation, data sheets, and collateral are objectives. Some think
+================
+sheets, and collateral are objectives. Some think that hiring a PR agency, starting the buzz and getting on the cover of magazines at launch are objectives. In reality none of these are true objectives.
+================
+Simply put, a startup should focus on reaching a deep understanding of customers and their problems, discovering a repeatable road map of how they buy, and building a financial model that results in profitability. The appropriate milestones that
+================
+in profitability. The appropriate milestones that measure a startup’s progress answers these questions: How well do we understand what problems customers have? How much will they pay to solve those problems? Do our product features solve these
+================
+problems? Do our product features solve these problems? Do we understand our customers’ business? Do we understand the hierarchy of customer needs? Have we found visionary customers, ones who will buy our product early? Is our product a must-have
+================
+buy our product early? Is our product a must-have for these customers? Do we understand the sales road map well enough to consistently sell the product? Do we understand what we need to be profitable? Are the sales and business plans realistic,
+================
+Are the sales and business plans realistic, scalable, and achievable? What do we do if our model turns out to be wrong? Webvan had no milestones that said stop and evaluate the results (2,000 orders per day versus 8,000 forecasted) of its product
+================
+per day versus 8,000 forecasted) of its product launch. Before any meaningful customer feedback was in hand, and only a month after the product started shipping, Webvan signed a one billion dollar deal (yes, $1,000,000,000) with Bechtel. The company
+================
+(yes, $1,000,000,000) with Bechtel. The company committed to the construction of up to 26 additional distribution centers over the next three years. Webvan had leaped right over learning and discovery in its rush to execution.
+================
+There is a big difference between a process that emphasizes getting answers to the fundamental questions that I’ve listed above and a process that uses the product development model to keep early sales and marketing activities in sync with first
+================
+sales and marketing activities in sync with first customer ship. To see what I mean, consider the product development diagram from the perspective of people in sales and marketing.
+================
+5. The Use of a Product Development Methodology to Measure Sales Using the product development diagram for Customer Development activities is like using a clock to tell the temperature. They both measure something, but not the thing you wanted.
+================
+measure something, but not the thing you wanted. Figure 1.2 shows what the product development diagram looks like from a sales perspective. A VP of Sales looks at the diagram and says, “Hmm, if beta test is on this date, I’d better get a small sales
+================
+is on this date, I’d better get a small sales team in place before that date to acquire my first ‘early customers.’ And if first customer ship is on this date over here, then I need to hire and staff a sales organization by then.” Why? “Well,
+================
+staff a sales organization by then.” Why? “Well, because the revenue plan we promised the investors shows us generating customer revenue from the day of first customer ship.”
+================
+Chapter 1: The Path to Disaster   | 7
+================
+Figure 1.2  The View from the Sales Organization I hope this thinking already sounds inane to you. The plan calls for selling in volume the day Engineering is finished building the product. What plan says that? Why, the business plan, which uses the
+================
+says that? Why, the business plan, which uses the product development model to set milestones. The consequence is that selling isn’t predicated on discovering the right market or whether any customers will shell out cash for your product. Instead
+================
+will shell out cash for your product. Instead you use product development to time your readiness to sell. This “ready or not, here we come” attitude means that you won’t know if the sales strategy and plan actually work until after first customer
+================
+and plan actually work until after first customer ship. What’s the consequence if your stab at a sales strategy is wrong? You’ve built a sales organization that’s burning cash, cash that needs to be redirected in a hurry. No wonder the half-life of
+================
+redirected in a hurry. No wonder the half-life of a startup VP of Sales is about nine months post first customer ship. “Build and they will come,” is not a strategy, it’s a prayer. Webvan had this problem in spades. After first customer ship, Webvan
+================
+in spades. After first customer ship, Webvan had a nasty surprise waiting for it. Customers refused to behave the way the Webvan business plan said they would. Six months after Webvan’s June 1999 launch, the average daily volume of orders was 2,500
+================
+the average daily volume of orders was 2,500 orders per day. Sounds pretty good? Not bad for a startup? It was. Unfortunately, the Webvan business plan had forecast 8,000 orders per day, a number that was necessary for the company to achieve
+================
+that was necessary for the company to achieve profitability.
+================
+This meant that its distribution center (designed to process product volumes equivalent to approximately 18 supermarkets) was operating at less than 30% of capacity. Oops.
+================
+6. The Use of a Product Development Methodology to Measure Marketing The head of Marketing looks at the same product development diagram and sees something quite different (see Figure 1.3). For Marketing, first customer ship means feeding the sales
+================
+first customer ship means feeding the sales pipeline with a constant stream of customer prospects. To create this demand at first customer ship, marketing activities start early in the product development process. While the product is being
+================
+development process. While the product is being engineered, Marketing starts creating corporate presentations and sales materials. Implicit in these materials is the “positioning” of the company and product. Looking ahead to the product launch, the
+================
+product. Looking ahead to the product launch, the marketing group hires a public relations agency to refine the positioning and to begin generating early “buzz” about the company. The PR agency helps the company understand and influence key industry
+================
+the company understand and influence key industry analysts, luminaries, and references. All this leads up to a flurry of press events and interviews, all geared to the product launch date. (During the Internet bubble, one more function of the
+================
+the Internet bubble, one more function of the marketing department was to “buy” customer loyalty with enormous advertising and promotion spending to create a brand.)
+================
+Figure 1.3  The View from the Marketing Organization At first glance this process may look quite reasonable, except for one small item: all this marketing activity occurs before customers start buying—that is, before Sales has had a chance to
+================
+buying—that is, before Sales has had a chance to actually test the positioning, marketing strategy, or demand-creation activities in front of real customers. In fact, all the marketing plans are made in a virtual vacuum of real customer feedback
+================
+in a virtual vacuum of real customer feedback Hire First Sales Staff Build Sales Organization Concept/ Seed Product Development Alpha/Beta Test Launch/ 1st Ship
+================
+Create Marcom Materials
+
+Create Positioning
+
+Hire PR Agency
+
+Early Buzz
+
+Create Demand
+
+Launch Event
+
+“Branding” Concept/ Seed Product Development Alpha/Beta Test Launch/ 1st Ship
+================
+8 | The Four Steps to the Epiphany and information. Of course, smart marketers have some early interaction with customers before the product ships, but if they do, it’s on their own initiative, not as part of a well-defined process. Most first-time
+================
+part of a well-defined process. Most first-time marketers spend a large part of their time behind their desks inside their building. This is somewhat amazing, since in a startup no facts exist inside the building, only opinions. Yet even if we get
+================
+the building, only opinions. Yet even if we get the marketing people to get out from behind their desks into the field, the deck is still stacked against their success. Look at the product development diagram. When does Marketing find out whether
+================
+diagram. When does Marketing find out whether the positioning, buzz, and demand creation activities actually work? After first customer ship. The inexorable march to this date has no iterative loop that says, “If our assumptions are wrong, maybe we
+================
+says, “If our assumptions are wrong, maybe we need to try something different.” This “marketing death march” happened at Webvan. In its first six months of business, Webvan acquired an impressive 47,000 new customers. However, in those six months
+================
+new customers. However, in those six months 71% of the 2,000 orders per day that were coming in were from customers who had already used the service. This meant Webvan needed more new customers, and it needed to reduce the number of customers who
+================
+it needed to reduce the number of customers who ordered once and then never used the service again. These facts contradicted the marketing assumptions in the original business plan. As happens in most startups, those assumptions were wrong.
+================
+Yet Webvan had scaled its spending (particularly on building and operating large distribution centers) on these unverified guesses.
+================
+7. Premature Scaling Having Sales and Marketing believe that by first customer ship, come hell or high water, they need fully staffed organizations leads to another disaster: premature scaling. Startup executives have three documents to guide their
+================
+executives have three documents to guide their hiring and staffing; a business plan, a product development model and a revenue forecast. All of these are execution documents – they document spending and hiring as if success is assured. As mentioned
+================
+and hiring as if success is assured. As mentioned earlier there are no milestones that say “stop or slow down hiring until you understand customers.”  Even the most experienced executives succumb to the inexorable pressure to hire and staff to
+================
+to the inexorable pressure to hire and staff to “plan” regardless of early customer feedback. In Webvan’s case premature scaling was an integral part of the company culture and the prevailing venture capital “get big fast” mantra. Webvan spent $18
+================
+capital “get big fast” mantra. Webvan spent $18 million to develop proprietary software and $40 million to set up its first automated warehouse before it had shipped a single item. Premature scaling had dire consequences since Webvan’s spending was
+================
+had dire consequences since Webvan’s spending was on a scale that ensures it will be taught in business school case studies for years to come. As customer behavior continued to differ from the predictions in Webvan’s business plan, the company
+================
+in Webvan’s business plan, the company slowly realized that it had overbuilt and over-designed. The business model made sense only at the high volumes predicted on the spreadsheet. The average daily volume of orders was significantly below the
+================
+volume of orders was significantly below the capacity the company needed to achieve profitability.
+================
+To have any hope of achieving favorable gross margins, Webvan had to find a way to substantially increase its volume, the number of customers, the number of orders placed by its customers, and the average order size.
+================
+8. Death Spiral: The Cost of Getting Product Launch Wrong Premature scaling is the immediate cause of the Death Spiral. Premature scaling causes the burn rate to accelerate. Sales, salaries, facilities, infrastructure costs, recruiting fees, and
+================
+infrastructure costs, recruiting fees, and travel expenses start cutting into the company’s cash flow. The pressure for revenue grows exponentially. Meanwhile the marketing department is spending large sums on creating demand for the sales
+================
+large sums on creating demand for the sales organization. It is also spending “credibility capital” on positioning and explaining the company to the press, analysts, and customers. By the time of first customer ship, if the company does not
+================
+of first customer ship, if the company does not understand its market and customers, the consequences unfold in a startup ritual, almost like a Japanese Noh play. What happens when you fully staff sales and marketing and you haven’t nailed who your
+================
+and marketing and you haven’t nailed who your customers are and why they should buy your product? Sales starts missing its numbers. The board gets concerned. The VP of Sales comes to a board meeting, still optimistic, and provides a set of
+================
+meeting, still optimistic, and provides a set of reasonable explanations. The board raises a collective eyebrow. The VP goes back to the field and exhorts the troops to work harder.
+================
+Chapter 1: The Path to Disaster   | 9 Meanwhile, the salespeople start inventing and testing their own alternatives—different departments to call on, different versions of the presentations. Instead of a methodology of learning and discovering, the
+================
+of a methodology of learning and discovering, the sales team has turned into a disorganized and disgruntled mob burning lots of cash. Back in the home office, the product presentation slides are changing weekly (sometimes daily) as Marketing tries
+================
+weekly (sometimes daily) as Marketing tries to “make up a better story” and sends out the latest pitch to a confused sales organization. Morale in the field and in Marketing starts to plummet. Salespeople begin to believe “This product cannot be
+================
+begin to believe “This product cannot be sold; no one wants to buy it.” Management fires the VP of Sales and a few salespeople leave. Then a new VP of Sales comes in and starts the process all over again. By the next board meeting, the sales numbers
+================
+By the next board meeting, the sales numbers still aren’t meeting plan. The VP of Sales looks down at his shoes and shuffles his feet. Now the board raises both eyebrows and looks quizzically at the CEO. The VP of Sales, forehead bathed in sweat,
+================
+CEO. The VP of Sales, forehead bathed in sweat, leaves the board meeting and has a few heated motivational sessions with the sales team. By the next board meeting, if the sales numbers are still poor, the writing is on the wall. Not only haven’t the
+================
+the writing is on the wall. Not only haven’t the sales numbers been made, but now the CEO is sweating the company’s continued cash burn rate. Why? Because the company has based its headcount and expenditures on the expectation that Sales will bring
+================
+on the expectation that Sales will bring in revenue according to plan.
+================
+The rest of the organization (product development, marketing, support) all started to burn more cash, expecting Sales to make its numbers. Now the company is in crisis mode. Here two things typically happen. First, the VP of Sales is toast. At the
+================
+happen. First, the VP of Sales is toast. At the final board meeting no one wants to stand next to him. People are moving their chairs to the other side of the room. Having failed to deliver the numbers, he’s history. Whether it takes three board
+================
+he’s history. Whether it takes three board meetings or a year is irrelevant; the VP of Sales in a startup who does not make the numbers is called an ex-VP of Sales (unless he was a founder, and then he gets to sit in a penalty box with a nebulous VP
+================
+gets to sit in a penalty box with a nebulous VP title). Next, the new VP of Sales is hired. She quickly comes to the conclusion that the company just did not understand its customers and how to sell to them. She decides that the company’s
+================
+to sell to them. She decides that the company’s positioning and marketing strategy were incorrect. Now the VP of Marketing starts sweating. Since the new VP of Sales was brought on board to “fix” sales, the marketing department has to react and
+================
+sales, the marketing department has to react and interact with someone who believes that whatever was created earlier in the company was wrong. The new VP of Sales reviews the strategy and tactics that did not work and comes up with a new sales
+================
+that did not work and comes up with a new sales plan. She gets a brief honeymoon of a few months from the CEO and the board. In the meantime, the original VP of Marketing is trying to come up with a new positioning strategy to support the new Sales
+================
+new positioning strategy to support the new Sales VP.
+================
+Typically this results in conflict, if not outright internecine warfare. If the sales aren’t fixed in a short time, the next executive to be looking for a job is not the new VP of Sales (she hasn’t been around long enough to get fired), it’s the VP
+================
+around long enough to get fired), it’s the VP of Marketing—the rationale being “We changed the VP of Sales, so that can’t be the problem. It must be Marketing’s fault.” Sometimes all it takes is one or two iterations of finding the right sales road
+================
+or two iterations of finding the right sales road map and marketing positioning to get a startup on the right track of finding exuberant customers. Unfortunately, more often than not, this is just the beginning of an executive death spiral. If
+================
+the beginning of an executive death spiral. If changing the sales and marketing execs doesn’t put the company on the right sales trajectory, the investors start talking the “we need the right CEO for this phase” talk. This means the CEO is walking
+================
+this phase” talk. This means the CEO is walking around with an unspoken corporate death sentence. Moreover, since the first CEO was likely to have been one of the founders, the trauma of CEO removal begins. Typically, founding CEOs hold on to the
+================
+begins. Typically, founding CEOs hold on to the doorframe of their offices as the investors try to pry their fingers off the company. It’s painful to watch and occurs in more than half of the startups with first-time CEOs. In flush economic times
+================
+with first-time CEOs. In flush economic times the company may get two or three iterations around a failed launch and bad sales numbers. In tougher times investors are tighter with their wallets and are making the “tossing good money after bad”
+================
+and are making the “tossing good money after bad” calculations with a frugal eye.
+================
+A startup might simply not get a next round of funding and have to shut down. In Webvan’s case, the death spiral was public and messy, since none of this was occurring in the intimate enclosure of a private company. The consequence of going public
+================
+private company. The consequence of going public was that the sea of red ink was printed quarterly for all to see. Rather than realize that the model was unrealistic and scale back, the company continued to invest heavily in marketing and promotion
+================
+to invest heavily in marketing and promotion (to get more customers and keep the ones they had) and distribution facilities (building new ones in new parts of the country to reach more customers). By the end of 2000 Webvan had accumulated a deficit
+================
+the end of 2000 Webvan had accumulated a deficit of $612.7 million and was hemorrhaging cash. Seven months later, it was bankrupt.
+================
+10 | The Four Steps to the Epiphany 9. Not All Startups Are Alike A fundamental truth about startups that is completely ignored in the product development model is that they are not all alike. One of the radical insights that guides this book is
+================
+of the radical insights that guides this book is that startups fall into one of four basic categories: • Bringing a new product into an existing market • Bringing a new product into a new market • Bringing a new product into an existing market and
+================
+a new product into an existing market and trying to resegment that market as a low-cost entrant • Bringing a new product into an existing market and trying to resegment that market as a niche entrant These differences will be developed in more
+================
+These differences will be developed in more detail in subsequent chapters. What’s important to know now is that the traditional product development model at times succeeds in getting a product out the door into a known market with known customers
+================
+the door into a known market with known customers (choice 1). Executing past practices in this Market Type may work if  the market is similar to past experiences. However, since the majority of startups are not going after known markets (falling
+================
+are not going after known markets (falling into the second and third categories), they don’t have a clue where their customers are. Webvan fell into the fourth category of startup—one that was bringing a new product (online grocery ordering and same
+================
+a new product (online grocery ordering and same day delivery) into an existing market (the grocery business), and trying to create a niche of that market.
+================
+One could even make the argument that Webvan’s idea was so radical that the company fell into the second category of startups - bringing a new product into a completely new market. In either case, Webvan’s ability to predict customer acceptance and
+================
+ability to predict customer acceptance and widespread usage was not based on any facts, just untested business plan hypotheses. (Modeling customer adoption rates using traditional quantitative models like Bass Curve are impossible at first customer
+================
+like Bass Curve are impossible at first customer ship for category 2 and 3 companies. There aren’t sufficient initial sales data to make valid sales predictions.) Here’s the point. Since the four types of startups have very different rates of
+================
+types of startups have very different rates of customer adoption and acceptance, their sales and marketing strategies differ dramatically. Even more serious, is that each Market Type have radically different cash needs. A company creating a new
+================
+different cash needs. A company creating a new market might be unprofitable for 5 or more years, while one in an existing market might be generating cash in 12-18 months. As a result, the product development model is not only useless, it is
+================
+development model is not only useless, it is dangerous. It tells the finance, marketing and sales teams nothing about how to uniquely describe and sell for each type of startup, nor how to predict the resources needed for success.
+================
+10. Unrealistic Expectations I’ve argued that the product development model leads to fundamental and often fatal errors in the first year or two of a startup’s life. We can sum up these errors in terms of three unrealistic expectations: • That the
+================
+of three unrealistic expectations: • That the product development diagram can be relied upon to guide activities that have nothing to do with product development—namely, finding customers, a market, and a viable business model. • That Customer
+================
+and a viable business model. • That Customer Development will move on the same schedule as product development. • That all types of startups and all new products will achieve acceptance and deployment at the same rate, namely starting at First
+================
+at the same rate, namely starting at First Customer Ship. In addition to these three errors, there is one more. Startups face enormous pressure from their investors to become profitable. Sometimes, to get funded, these new ventures make unrealistic
+================
+get funded, these new ventures make unrealistic financial assumptions – about market size, growth or simply ignoring the consequences of the Market Type they have chosen. These optimistic expectations become the plan of record, forcing execution
+================
+become the plan of record, forcing execution towards unrealistic and unachievable goals. Webvan made all of these mistakes, visibly and publicly. Yet most observers wrote off its failure as just one of the many “dot-com busts,” attributing the
+================
+one of the many “dot-com busts,” attributing the venture’s demise to something related to the Internet. The reality is more profound and germane.
+================
+Webvan and the entire dot-com collapse were the result of falling victim to the three expectations I’ve just described; “build it and the customers will come,” (regardless of the number of dollars raised) is not a successful strategy.
+================
+Chapter 1: The Path to Disaster   | 11
+================
+SO WHAT’S THE ALTERNATIVE? If the product development diagram isn’t an appropriate road map for startups, what is? To some, the phrase “thoughtful startup sales and marketing process” is an oxymoron. However, there are entrepreneurs who have been
+================
+However, there are entrepreneurs who have been searching for a template for success with customers and markets. Since the early 1990s, the closest thing to a Holy Grail for sales and marketing activities in startups has been the Technology Life
+================
+in startups has been the Technology Life Cycle Adoption Curve and the notion of The Chasm.
+================
+The Technology Life Cycle Adoption Curve The Technology Life Cycle Adoption Curve (see Figure 1.4) was developed by Everett Rogers and popularized and refined with the notion of the “chasm” by Geoff Moore. It introduces entrepreneurs to five
+================
+Geoff Moore. It introduces entrepreneurs to five thought-provoking ideas:
+================
+Technology is adopted in phases approach by distinct groups: technology enthusiasts, visionaries, pragmatists, conservatives, and skeptics.
+================
+The first two groups, the technology enthusiasts and visionaries, are the “early market.” The next two groups, the pragmatists and conservatives, are the “mainstream market.”
+================
+The shape of the overall market for any product approximates a bell curve. The early market starts small and grows exponentially into the mainstream market.
+================
+There is a “chasm” between each of the different groups, with the largest chasm being between the early market and the mainstream market. These chasms are caused by the different product needs and buying habits of each group.
+================
+The biggest problem in crossing the chasm is that few of the hard
+================
+won early marketing and selling lessons and success can be leveraged into the mainstream market, as mainstream customers do not find early adopters as credible customer references. Therefore, completely new marketing and sales strategies are
+================
+completely new marketing and sales strategies are necessary to win over this next, much larger group of customers.
+================
+Figure 1.4  The Technology Life Cycle Adoption Curve Let’s briefly consider why this notion doesn’t provide a good road map for early-stage startups. With this last piece in place, we’ll be ready to consider the alternative path that this book
+================
+to consider the alternative path that this book describes, and that I assert all successful startups follow. An entrepreneur on day one of a startup looks longingly at the graceful bell curve depicted in Figure 1.4, dreaming of marching her company
+================
+in Figure 1.4, dreaming of marching her company to the pinnacle, determined to avoid those fearsome chasms. Ok, this all sounds good. Now what? Entrepreneurs should take a good long look at the Technology Life Cycle Adoption Curve. Is it
+================
+the Technology Life Cycle Adoption Curve. Is it informative? Interesting? Does it lead you to think profound and wonderful thoughts about strategy? Well, forget it. If you are just starting your company this is the last time you are going to see
+================
+this is the last time you are going to see this curve, at least for the next year. The problems you face occur much earlier than any chasm. In fact, you should be so lucky to be dealing with chasm-crossing activities, for they are a sign of success.
+================
+Customer
+
+Development
+
+The
+
+The Mainstream
+
+Chasm
+
+Market
+
+Technology
+
+Visionaries
+
+Pragmatists
+
+Conservatives
+
+Skeptics
+
+Enthusiasts
+================
+12 | The Four Steps to the Epiphany The Technology Life Cycle Adoption Curve does provide true insight, because there really are different types of customers in a company/product life cycle. However, this seductive curve leads early-stage
+================
+However, this seductive curve leads early-stage entrepreneurs to four bad conclusions. First, the curve naturally leads entrepreneurs to entertain dreams of glory in the mainstream market. In the early stages of building a company, those dreams are
+================
+stages of building a company, those dreams are best forgotten. Not forever, but for now. Why? The sad reality is that if you don’t get the first part of early Customer Development right, you won’t be in the mainstream. You’ll be out of business.
+================
+be in the mainstream. You’ll be out of business. Second, the curve invites us to think of technology enthusiasts as one part of the customer adoption curve. On the curve they look like just an early set of customers, but the reality is that they are
+================
+of customers, but the reality is that they are not. Technology enthusiasts exist as one of those sales puzzles on the path to finding “real” paying early customers and a repeatable sales process. You need to deal with them and understand their
+================
+You need to deal with them and understand their influence in the sales road map, but they vary rarely buy anything. Third, the notion that a startup’s customer base will grow in a smooth, continuous curve invites the tempting and dangerous idea that
+================
+invites the tempting and dangerous idea that customer adoption is simply a sales execution problem.
+================
+Even when the notion of a chasm is added, along with the observation that early market customers and mainstream customers are different, only in entrepreneurs’ dreams and business school cases does this take the form of a adoption curve. As we will
+================
+take the form of a adoption curve. As we will see, the actual transition from one type of customer to another is at best a step function (and dependent on Market Type.) Fourth, the Technology Life Cycle Adoption Curve, along with the books written
+================
+Adoption Curve, along with the books written about it, emphasize “execution and adoption.” That’s all fine and good, but as my grandmother used to say, “You should be so lucky to have that problem.” In the early stages of a startup, focusing on
+================
+In the early stages of a startup, focusing on “execution” will put you out of business. Instead, you need a “learning and discovery” process so you can get the company to the point where you know what to execute. So instead of dreaming up ways to
+================
+to execute. So instead of dreaming up ways to cross the chasm, the first step for a startup is to focus on learning and discovery processes, from starting the company to scaling the business. Through trial and error, hiring and firing, startups that
+================
+trial and error, hiring and firing, startups that succeed have invented a parallel process to product development that is customer-and market-centric,  I call “Customer Development.”
+================
+Customer Development: Common Sense Meets the Product Development Model It’s interesting to imagine what would happen if a startup told its venture capital backers that it had hired the world’s best engineering team, but it wasn’t going to use any
+================
+engineering team, but it wasn’t going to use any process or methodology to get the product out the door. Can you imagine saying, “Nah, we don’t need no stinking product development methodology. We’ll just go by the seat of our pants?” Only in your
+================
+just go by the seat of our pants?” Only in your dreams. Startups use a product development methodology to be able to measure the progress of their development team, control their cash burn rate and time their product launch. Yet as we have seen, we
+================
+their product launch. Yet as we have seen, we don’t even think twice when we hire the best marketing, sales, and business development talent, toss them into a startup and say, “Go figure out who wants to buy this, and quickly sell a whole bunch. Let
+================
+to buy this, and quickly sell a whole bunch. Let us know when you are done, but keep it vague and wave your hands a lot when we ask you how much progress you are making.” Seems kind of silly doesn’t it? Yet that’s the state of the startup today.
+================
+it? Yet that’s the state of the startup today. There is no recognized process with measurable milestones, for finding customers, developing the market, and validating the business model. The Customer Development model of a startup starts with a
+================
+Development model of a startup starts with a simple premise: learning and discovering who a company’s initial customers will be, and what markets they are in, requires a separate and distinct process from product development. The sum of these
+================
+from product development. The sum of these activities is Customer Development.
+================
+Note that I am making a concerted effort not to call Customer Development a “sales process” or a “marketing process.” The reason will become clearer as we talk about how to organize the team for the Customer Development process in a later chapter.
+================
+Customer Development process in a later chapter. However, early on, we are neither selling or marketing. Before any of the traditional functions of selling and marketing can happen, the company has to prove that a market could exist, verify that
+================
+to prove that a market could exist, verify that someone would pay real dollars for the solutions the company envisions, and then go out and create the market. These testing, learning, and discovery activities are at the heart of what makes a startup
+================
+are at the heart of what makes a startup unique, and they are what make Customer Development so different from the product development process.
+================
+Chapter 1: The Path to Disaster   | 13 The Customer Development model is intended to be everything the product development diagram is not. Where product development is focused on first customer ship, the Customer Development model moves learning
+================
+the Customer Development model moves learning about customers and their problems as early in the development process as possible. In addition, the model is built on the idea that every startup has a set of definable milestones that no amount of
+================
+a set of definable milestones that no amount of funding can accelerate. More money is helpful later, but not now. The Internet Bubble was the biggest science experiment in this area. You cannot create a market or customer demand where there isn’t
+================
+a market or customer demand where there isn’t any customer interest. The good news is that these customer and market milestones can be defined and measured. The bad news is that accomplishing these milestones is an art. It’s an art embodied in the
+================
+milestones is an art. It’s an art embodied in the passion and vision of the individuals who work to make their vision a reality. That’s what makes startups so exciting. The ironic postscript to the Webvan story is that another company, Tesco, raced
+================
+story is that another company, Tesco, raced past pioneers such as Webvan to become the largest online grocer in the world. The people at Tesco did not raise a huge financial war chest to launch their service. They learned and discovered what
+================
+their service. They learned and discovered what customers wanted, and they found a financial model that worked. They started their online grocery service by using their retail stores in the UK as the launching pad.
+================
+By 2002 they had created a profitable online business that was handling 85,000 orders per week and had racked up more than $559 million in sales. Tesco could set up its online grocery business for a fraction of the investment of Webvan because it
+================
+a fraction of the investment of Webvan because it was able to build off its existing infrastructure of over 929 stores. In June 2001 online grocery shopping returned to the United States when Tesco moved into the market, purchasing a 35% investment
+================
+into the market, purchasing a 35% investment in Safeway’s online grocery service. Explicitly or implicitly, Tesco understood the process embodied by the Customer Development model. The next chapter describes this model in detail.
+================
+Chapter 2: The Path to Epiphany  |
+================
+Chapter 2: The Path to Epiphany   | 15 Chapter 2 The Path to Epiphany: The Customer Development Model How narrow the gate and constricted the road that leads to life. And those who find it are few. — Matthew 7:14 The furniture business does not
+================
+— Matthew 7:14 The furniture business does not strike many people as a market ripe for innovation. Yet during the halcyon days of dot-com companies (when venture capitalists could not shovel money out the door fast enough), the online furnishing
+================
+out the door fast enough), the online furnishing market spawned a series of high profile companies such as Furniture.com and Living.com. Operating on the James Dean School of management (living fast and dying young), companies like these quickly
+================
+and dying young), companies like these quickly garnered millions of dollars of investors’ capital and just as swiftly flamed out. Meanwhile, a very different startup by the name of Design Within Reach began building its business a brick at a time.
+================
+began building its business a brick at a time. What happened, and why, is instructive. At a time when the furniture dot-coms were still rolling in investor money, the founder of Design Within Reach, Rob Forbes, approached me to help the company get
+================
+Rob Forbes, approached me to help the company get funding. Rob’s goal was to build a catalog business providing easy access to well-designed furniture frequently found only in designer showrooms. In his twenty years of working as a professional
+================
+In his twenty years of working as a professional office designer, he realized one of the big problems in the furniture industry: for design professionals and businesses such as hotels and restaurants, high-quality designer furniture took four months
+================
+high-quality designer furniture took four months to ship.
+================
+Customers repeatedly told Rob, “I wish I could buy great-looking furniture without having to wait months to get it.” On a shoestring, Rob put together a print catalog of furniture (over half the items were exclusive to his company) that he carried
+================
+were exclusive to his company) that he carried in stock and ready to ship. Rob spent his time listening to customers and furniture designers. He kept tuning his catalog and inventory to meet designers’ needs, and he scoured the world for unique
+================
+needs, and he scoured the world for unique furniture. His fledgling business was starting to take wing; now he wanted to raise serious venture capital funding to grow the company. “No problem,” I said. Pulling out my Rolodex and dialing for dollars,
+================
+Pulling out my Rolodex and dialing for dollars, I got Rob in to see some of the best and the brightest venture capitalists on Sand Hill Road in Silicon Valley. Rob would go through his presentation and point out that there was a $17.5 billion
+================
+and point out that there was a $17.5 billion business-to-business market for high-quality, well-designed furnishings. He demonstrated that the current furniture distribution system was archaic, fragmented, and ripe for restructuring, as furniture
+================
+and ripe for restructuring, as furniture manufacturers faced a convoluted system of reps, dealers, and regional showrooms that prevented direct access to their customers. Consumers typically waited four months for product and incurred unnecessary
+================
+four months for product and incurred unnecessary markups of up to 40%. Listening to Rob speak, it was obvious that he had identified a real problem, had put together a product that solved that problem, and had customers verifying that he had the
+================
+and had customers verifying that he had the right solution by buying from him.
+================
+It was such a compelling presentation that it was a challenge to identify any other industry where customers were so poorly served. Yet the reaction from the venture capital firms was uniformly negative. “What, no web site? No e-commerce
+================
+negative. “What, no web site? No e-commerce transactions? Where are the branding activities? We want to fund web-based startups. Perhaps we’d be interested if you could turn your catalog furniture business into an e-commerce site.” Rob kept
+================
+business into an e-commerce site.” Rob kept patiently explaining that his business was oriented to what his customers told him they wanted. Design professionals wanted to leaf through a catalog at their leisure in bed. They wanted to show a catalog
+================
+leisure in bed. They wanted to show a catalog to their customers. While he wasn’t going to ignore the web, it would be the next step, not the first, in building the business.
+================
+16 | The Four Steps to the Epiphany “Rob,” the VCs replied sagely, “Furniture.com is one of the hottest dot-coms out there. Together they’ve raised over $100 million from first-tier VCs. They and other hot startups like them are selling furniture
+================
+hot startups like them are selling furniture over the web. Come back when you rethink your strategy.” I couldn’t believe it: Rob had a terrific solution to sell and a proven business model, and no one would fund him. Yet like the tenacious
+================
+and no one would fund him. Yet like the tenacious entrepreneur he was, he stubbornly stuck to his guns. Rob believed the dot.com furniture industry was based on a false premise, that the business opportunity was simply online purchasing of home
+================
+opportunity was simply online purchasing of home furnishings. He believed that the underlying opportunity was to offer high-quality products to a select audience that were differentiated from those of other suppliers, and to get those products to
+================
+of other suppliers, and to get those products to customers quickly. This difference, a select audience versus a wide audience, and high-quality furniture versus commodity furniture, was the crucial difference between success and massive failure.
+================
+difference between success and massive failure. Ultimately, Rob was able to raise money from friends and family and much later got a small infusion of venture capital. Fast-forward six years. Design Within Reach is a thriving $180 million public
+================
+Within Reach is a thriving $180 million public company. It has 56 retail stores and an e-commerce web site. Its brand is well known and recognized in the design community. Oh, and Furniture.com? It’s already relegated to the dustbin of forgotten
+================
+already relegated to the dustbin of forgotten failures.
+================
+Why did Design Within Reach succeed, when extremely well funded startups like Furniture.com fail? What was it that Rob Forbes knew or did that made the company a winner? Can others emulate his success? THE FOUR STEPS TO THE EPIPHANY Most startups
+================
+THE FOUR STEPS TO THE EPIPHANY Most startups lack a process for discovering their markets, locating their first customers, validating their assumptions, and growing their business. A few successful ones like Design Within Reach do all these things.
+================
+like Design Within Reach do all these things. The difference is that the ones that succeed invent a Customer Development model. The Customer Development model, depicted in Figure 2.1, is designed to solve the 10 problems of the Product Development
+================
+solve the 10 problems of the Product Development model enumerated in Chapter 1. Its strength is its rigor and flexibility. The model separates out all the customer-related activities in the early stage of a company into their own processes, designed
+================
+of a company into their own processes, designed as four easy-to-understand steps: Customer Discovery, Customer Validation, Customer Creation, and Company Building. As you will see, these steps mesh seamlessly and support a startup’s ongoing product
+================
+and support a startup’s ongoing product development activities. Each of them results in specific deliverables to be described in subsequent chapters.
+================
+The Customer Development model is not a replacement for the Product Development model, but a companion. Broadly speaking, Customer Development focuses on understanding customer problems and needs, Customer Validation on developing a sales model that
+================
+Validation on developing a sales model that can be replicated, Customer Creation on creating and driving end user demand, and Company Building on transitioning the organization from one designed for learning and discovery to a well-oiled machine
+================
+learning and discovery to a well-oiled machine engineered for execution. As I discuss later in this chapter, integral to this model is the notion that Market Type choices affect the way the company will deploy its sales, marketing and financial
+================
+will deploy its sales, marketing and financial resources. Company Building Customer Discovery Customer Validation Customer Creation
+================
+Figure 2.1  The Customer Development Model
+================
+STOPSTOPSTOP Chapter 2: The Path to Epiphany   | 17 Notice that a major difference between this model and the traditional product development model is that each step is drawn as a circular track with recursive arrows. The circles and arrows
+================
+with recursive arrows. The circles and arrows highlight the fact that each step in Customer Development is iterative. That’s a polite way of saying, “Unlike product development, finding the right customers and market is unpredictable, and we will
+================
+and market is unpredictable, and we will screw it up several times before we get it right.” Experience with scores of startups shows that only in business school case studies does progress with customers happen in a nice linear fashion. The nature
+================
+happen in a nice linear fashion. The nature of finding a market and customers guarantees that you will get it wrong several times. Therefore, unlike the product development model, the Customer Development model assumes that it will take several
+================
+model assumes that it will take several iterations of each of the four steps until you get it right. It’s worth pondering this point for a moment, because this philosophy of “It’s OK to screw it up if you plan to learn from it” is the heart of the
+================
+if you plan to learn from it” is the heart of the methodology presented in this book. In a product development diagram, going backwards is a considered a failure. No wonder most startup businesspeople are embarrassed when they are out in the field
+================
+are embarrassed when they are out in the field learning, failing, and learning some more. The diagram they’ve used to date says, “Go left to right and you’re a success.
+================
+Go right to left, and you’ll get fired.” No wonder startup sales and marketing efforts tend to move forward even when it’s patently obvious that they haven’t nailed the market. (Imagine trying that philosophy in product development for pacemakers or
+================
+in product development for pacemakers or missiles.) In contrast, the Customer Development diagram says that going backwards is a natural and valuable part of learning and discovery. In this new methodology, you keep cycling through each step until
+================
+you keep cycling through each step until you achieve “escape velocity”—that is, until you generate enough success to carry you out and into the next step. Notice that the circle labeled Customer Validation in the diagram has an additional iterative
+================
+in the diagram has an additional iterative loop going back to Customer Discovery. As you’ll see later, Customer Validation is a key checkpoint in understanding whether you have a product that customers want to buy and a road map of how to sell it.
+================
+want to buy and a road map of how to sell it. If you can’t find enough paying customers in the Customer Validation step, the model returns you to Customer Discovery to rediscover what customers want and will pay for. An interesting consequence of
+================
+and will pay for. An interesting consequence of this process is that it keeps a startup at a low cash burn rate until the company has validated its business model by finding paying customers. In the first two steps of Customer Development, even an
+================
+first two steps of Customer Development, even an infinite amount of cash is useless, because it can only obscure whether you have found a market.
+================
+(Having raised lots of money tempts you to give products away, steeply discount to buy early business, etc., all while saying “we’ll make it up later.”  It rarely happens that way.) Since the Customer Development model assumes that most startups
+================
+Development model assumes that most startups cycle through these first two steps at least twice, it allows a well-managed company to carefully estimate and frugally husband its cash. The company doesn’t build its non-product development teams
+================
+doesn’t build its non-product development teams (sales, marketing, business development) until it has proof in hand (a tested sales road map and valid purchase orders) that it has a business worth building. Once that proof is obtained, the company
+================
+Once that proof is obtained, the company can go through the last two steps of Customer Creation and Company Building to capitalize on the opportunity it has found and validated. The interesting thing about the Customer Development model is that the
+================
+about the Customer Development model is that the process it describes represents the best practices of winning startups. Describe this model to entrepreneurs who have taken their companies all the way to a public offering and beyond, and you’ll get
+================
+to a public offering and beyond, and you’ll get heads nodding in recognition. It’s just that until now, no one has ever explicitly mapped their journey to success. Even more surprising, while the Customer Development model may sound like a new idea
+================
+Development model may sound like a new idea for entrepreneurs, it shares many features with a U.S. war fighting strategy known as the "OODA Loop" articulated by John Boyd1 and adopted by the U.S. armed forces in the second Gulf War.
+================
+(You’ll hear more about the OODA Loop later in this chapter.) The next four chapters provide a close-up look at each of the four steps in the model. The following overview will get you oriented to the process as a whole.
+================
+1 P Air War College, John R. Boyd, “Patterns of Conflict” and “A Discourse on Winning and Losing”
+================
+18 | The Four Steps to the Epiphany Step 1: Customer Discovery The goal of Customer Discovery is just what the name implies: finding out who the customers for your product are and whether the problem you believe you are solving is important to them.
+================
+you believe you are solving is important to them. More formally, this step involves discovering whether the problem, product and customer hypotheses in your business plan are correct. To do this, you need to leave guesswork behind and get “outside
+================
+need to leave guesswork behind and get “outside the building” in order to learn what the high-value customer problems are, what it is about your product that solves these problems, and who specifically are your customer and user (for example, who
+================
+are your customer and user (for example, who has the power to make or influence the buying decision and who actually will end up using the product on a daily basis.) What you find out will also help you shape how you will describe your unique
+================
+help you shape how you will describe your unique differences to potential customers. An important insight is that the goal of Customer Development is not to collect feature lists from prospective customers, nor is it to run lots of focus groups. In
+================
+nor is it to run lots of focus groups. In a startup, it is the founders and product development that defines the first product. The job of the Customer Development team is to see whether there are customers and a market for that vision. (Read this
+================
+and a market for that vision. (Read this last sentence again. It’s not intuitively obvious, but the initial product specification comes from the founders vision, not the sum of a set of focus groups.) The basic premise of Furniture.com and
+================
+groups.) The basic premise of Furniture.com and Living.com was a good one.
+================
+Furniture shopping is time- consuming, and the selection at many stores can be overwhelming. On top of that, the wait for purchased items can seem interminable. While these online retailers had product development milestones they lacked formal
+================
+product development milestones they lacked formal Customer Development milestones. At Furniture.com the focus was on getting to market first and fast. Furniture.com spent $7 million building its web site, e-commerce and supply chain systems before
+================
+site, e-commerce and supply chain systems before the company knew what customer demand would be. Once the web site was up and the supply chain was in place, it began shipping. Even when it found that shipping and marketing costs were higher than
+================
+shipping and marketing costs were higher than planned, and that the brand-name manufacturers did not want to alienate their traditional retail outlets, the company pressed forward with its existing business plan. In contrast, at Design Within Reach
+================
+plan. In contrast, at Design Within Reach Rob Forbes was the consummate proponent of a customer- centric view. Rob was talking to customers and suppliers continually. He didn’t spend time in his office pontificating about a vision for his business.
+================
+pontificating about a vision for his business. Nor did he go out and start telling customers what products he was going to deliver (the natural instinct of any entrepreneur at this stage). Instead, he was out in the field listening, discovering how
+================
+was out in the field listening, discovering how his customers worked and what their key problems were. Rob believed that each new version of the Design Within Reach furniture catalog was a way for his company to learn from customers.
+================
+As each subsequent catalog was developed, feedback from customers was combined with the sales results of the last catalog and the appropriate changes were made. Entire staff meetings were devoted to “lessons learned” and “what didn’t work.”
+================
+to “lessons learned” and “what didn’t work.” Consequently, as each new catalog hit the street the size of the average customer order increased, along with the number of new customers.
+================
+Step 2: Customer Validation Customer Validation is where the rubber meets the road. The goal of this step is to build a repeatable sales road map for the sales and marketing teams that will follow later. The sales road map is the playbook of the
+================
+later. The sales road map is the playbook of the proven and repeatable sales process that has been field-tested by successfully selling the product to early customers. Customer Validation proves that you have found a set of customers and a market
+================
+you have found a set of customers and a market who react positively to the product: By relieving those customers of some of their money. A customer purchase in this step validates lots of polite words from potential customers about your product. In
+================
+from potential customers about your product. In essence, Customer Discovery and Customer Validation corroborate your business model. Completing these first two steps verifies your market, locates your customers, tests the perceived value of your
+================
+your customers, tests the perceived value of your product, identifies the economic buyer, establishes your pricing and channel strategy, and checks out your sales cycle and process. If, and only if, you find a group of repeatable customers with a
+================
+you find a group of repeatable customers with a repeatable sales process, and then find that those customers yield a profitable business model, do you move to the next step (scaling up and crossing the Chasm.
+================
+Chapter 2: The Path to Epiphany   | 19 Design Within Reach started with a hypothesis that its customers fit a narrow profile of design professionals. It treated this idea like the educated guess it was, and tested this premise by analyzing the sales
+================
+and tested this premise by analyzing the sales results of each catalog. It kept refining its assumptions until it had found a repeatable and scalable sales and customer model. This is where the dot.com furniture vendors should have stopped and
+================
+dot.com furniture vendors should have stopped and regrouped. When customers did not respond as their business models predicted, further execution on the same failed plan guaranteed disaster.
+================
+Step 3: Customer Creation Customer Creation builds on the success the company has had in its initial sales. Its goal is to create end-user demand and drive that demand into the company’s sales channel. This step is placed after Customer Validation
+================
+This step is placed after Customer Validation to move heavy marketing spending after the point where a startup acquires its first customers, thus allowing the company to control its cash burn rate and protect its most precious asset. The process of
+================
+protect its most precious asset. The process of Customer Creation varies with the type of startup. As I noted in Chapter 1, startups are not all alike. Some startups are entering existing markets well defined by their competitors, some are creating
+================
+defined by their competitors, some are creating new markets where no product or company exists, and some are attempting a hybrid of the first two, resegmenting existing market either as a low-cost entrant or by creating a new niche. Each of these
+================
+entrant or by creating a new niche. Each of these Market Type strategies requires a very different set of Customer Creation activities. In Furniture.com’s prospectus, the first bullet under growth strategy was “Establish a powerful brand.”
+================
+growth strategy was “Establish a powerful brand.” Furniture.com launched a $20 million advertising campaign that included television, radio and online ads. It spent a total of $34 million on marketing and advertising, even though revenue was just
+================
+and advertising, even though revenue was just $10.9 million. (Another online furniture startup, Living.com, agreed to pay electronic- commerce giant Amazon.com $145 million over four years to be featured on Amazon's home page.)
+================
+Brand building and heavy advertising make lots of sense in existing markets when customers understand your product or service. However, in an entirely new market this type of “onslaught” product launch is like throwing money down the toilet.
+================
+launch is like throwing money down the toilet. Customers don’t have a clue what you are talking about, and you don’t have a clue if they will behave as you assume.
+================
+Step 4: Company Building Company Building is where the company transitions from its informal, learning and discovery- oriented Customer Development team into formal departments with VPs of Sales, Marketing and Business Development. These executives
+================
+and Business Development. These executives now focus on building mission-oriented departments that can exploit the company’s early market success. In contrast to this incremental process, premature scaling is the bane of startups. By the time
+================
+scaling is the bane of startups. By the time Furniture.com had reached $10 million in sales, it had 209 employees and a burn rate that would prove to be catastrophic if any one of the business plan assumptions were incorrect. The approach seemed to
+================
+were incorrect. The approach seemed to be to “spend as much as possible on customer acquisition before the music stops.” Delivering heavy furniture from multiple manufacturers resulted in unhappy customers as items got damaged, lost, or delayed.
+================
+customers as items got damaged, lost, or delayed. Flush with investors’ cash, the company responded the way dot-coms tend to respond to problems: by spending money. It reordered, and duplicates began piling up in warehouses. The company was burning
+================
+piling up in warehouses. The company was burning through investor dollars like cheap kindling. Furniture.com went from filing for a public offering in January to pulling its IPO in June 2000 and talking with bankruptcy lawyers. The company was
+================
+talking with bankruptcy lawyers. The company was eventually able to raise $27 million in venture funding, but at a lower valuation than it had gotten the last time it raised money. In a bid for survival, Furniture.com furiously slashed costs.
+================
+The company, which had been offering free shipping for delivery and returns, began charging a $95 delivery charge. Then it laid off 41% of its staff. But it never answered the key question: Is there a way to sell commodity furniture over the Web and
+================
+way to sell commodity furniture over the Web and ship it cost-effectively when you don't have a nationwide network of stores? At Design Within Reach, Rob Forbes ran the company on a shoestring. The burn rate was kept low, first as a necessity as he
+================
+rate was kept low, first as a necessity as he scraped together financing from friends, family, and the casual investor, and then by plan as his team was finding a sales road map that could scale. Rob was finding a way to sell furniture without a
+================
+Rob was finding a way to sell furniture without a network of stores - it was called a catalog.
+================
+20 | The Four Steps to the Epiphany
+================
+THE FOUR TYPES OF STARTUP MARKETS Since time immemorial a post mortem of a failed company usually includes, “I don’t understand what happened. We did everything that worked in our last startup.”  The failure isn’t due to lack of energy, effort or
+================
+failure isn’t due to lack of energy, effort or passion. It may simply be due to not understanding that there are four types of startups, and each of them have a very different set of requirements to succeed: • Startups that are entering an existing
+================
+succeed: • Startups that are entering an existing market • Startups that are creating an entirely new market • Startups that want to resegment an existing market as a low cost entrant • Startups that want to resegment an existing market as a niche
+================
+want to resegment an existing market as a niche player
+================
+(“Disruptive” and “sustaining” innovations, eloquently described by Clayton Christensen, are another way to describe new and existing Market Types.) As I pointed out in Chapter 1, thinking and acting as if all startups are the same is a strategic
+================
+as if all startups are the same is a strategic error. It is a fallacy to believe that the strategy and tactics that worked for one startup should be appropriate in another. That’s because Market Type changes everything a company does. As an example,
+================
+changes everything a company does. As an example, imagine it’s October 1999 and you are Donna Dubinsky the CEO of a feisty new startup, Handspring, in the billion dollar Personal Digital Assistant (PDA) market. Other companies in the 1999 PDA market
+================
+market. Other companies in the 1999 PDA market were Palm, the original innovator, as well Microsoft and Hewlett Packard. In October 1999 Donna told her VP of Sales, “In the next 12 months I want Handspring to win 20% of the Personal Digital
+================
+Handspring to win 20% of the Personal Digital Assistant market.”  The VP of Sales swallowed hard and turned to the VP of Marketing and said, “I need you to take end user demand away from our competitors and drive it into our sales channel.”  The VP
+================
+and drive it into our sales channel.”  The VP of Marketing looked at all the other PDA’s on the market and differentiated Handspring’s product by emphasizing expandability and performance. End result? After twelve months Handsprings revenue was $170
+================
+After twelve months Handsprings revenue was $170 million. This was possible because in 1999 Donna and Handspring were in an existing market. Handspring’s customers understood what a Personal Digital Assistant was.
+================
+Handspring did not have to educate them about the market, just why their new product was better than the competition – and they did it brilliantly. What makes this example really interesting is this: rewind the story 3 years earlier to 1996. Before
+================
+rewind the story 3 years earlier to 1996. Before Handspring, Donna and her team had founded Palm Computing, the pioneer in Personal Digital Assistants. Before Palm arrived on the scene the Personal Digital Assistant market did not exist. (A few
+================
+Digital Assistant market did not exist. (A few failed science experiments like Apple’s Newton had come and gone.) But imagine if Donna had turned to her VP of Sales at Palm in 1996 and said, “I want to get 20% of the Personal Digital Assistant
+================
+want to get 20% of the Personal Digital Assistant market by the end of our first year.”  Her VP of Sales might had turned to the VP of Marketing and said, “I want you to drive end user demand from our competitors into our sales channel.” The VP of
+================
+competitors into our sales channel.” The VP of Marketing might have said, “Let’s tell everyone about how fast the Palm Personal Digital Assistant is.”  If they had done this there would have been zero dollars in sales. In 1996 no potential customer
+================
+dollars in sales. In 1996 no potential customer had even heard of a Personal Digital Assistant. No one knew what a PDA could do, there was no latent demand from end users, and emphasizing its technical features would have been irrelevant. What Palm
+================
+features would have been irrelevant. What Palm needed to do was educate potential customers about what a PDA could do for them. By our definition, (a product that allows users to do something they couldn’t do before) Palm in 1996 created a new
+================
+couldn’t do before) Palm in 1996 created a new market.
+================
+In contrast, Handspring in 1999 was in an existing market. The lesson is that even with essentially identical products and team, Handspring would have failed if it had used the same sales and marketing strategy previously used successfully at Palm.
+================
+strategy previously used successfully at Palm. And the converse is true;  Palm would have failed, burning through all their cash, using Handspring’s strategy. Market Type changes everything. Market Type changes how you evaluate customer needs,
+================
+Type changes how you evaluate customer needs, customer adoption rate, how the customer understands his needs and how you would position the product to the customer. Market Type also changes the market size, as well as how you launch the product into
+================
+size, as well as how you launch the product into the market. Table 2.1 points out what’s different.
+================
+Chapter 2: The Path to Epiphany   | 21 Customers Market Sales Finance Needs Market Size Distribution channel On going capital Adoption Rate Cost of entry Margins Time to profitability Problem recognition Launch Type Sales cycle
+
+Positioning
+================
+Positioning
+
+Competitive Barriers
+================
+Competitive Barriers
+
+Table 2.1  Market Type Affects Everything Before any sales or marketing activities can begin, a company must keep testing and asking, “What kind of a startup are we?” To see why, consider the four possible “Market Types.”
+================
+A New Product in an Existing Market An existing market is pretty easy to understand. We say you are in an existing market if your product offers higher performance than what is currently offered. Higher performance can be a product or service that
+================
+performance can be a product or service that runs faster, does something better or substantially improves on what is already on the market. The good news is that the users and the market are known, but so are the competitors. In fact, the
+================
+known, but so are the competitors. In fact, the competitors define the market. The basis of competition is therefore all about the product and product features. You can enter an existing market with a cheaper or repositioned “niche” product, but if
+================
+a cheaper or repositioned “niche” product, but if that is the case we call that a resegmented market.
+================
+A New Product in a New Market Another possibility is to introduce a new product into a new market. What’s a new market? It’s what happens when a company creates a large customer base who couldn’t do something before because of true innovation
+================
+do something before because of true innovation creating something never existed before, or dramatically lower cost that creates a new class of users. Or the new product solves availability, skill, convenience, or location issues in a way no other
+================
+convenience, or location issues in a way no other product has. Compaq’s first portable computers allowed business executives to take their computers with them, something simply impossible previously. Compaq created a new market, the portable
+================
+Compaq created a new market, the portable computer market. With Quicken, Intuit offered people a way to manage their finances on their personal computers, automating check writing, maintaining a check register and reconciling monthly balances;
+================
+check register and reconciling monthly balances; things that most people hated to do and few could do well. In doing so, Intuit created the home accounting market. (By “created the market” I do not mean “first-to-market;” I mean the company whose
+================
+mean “first-to-market;” I mean the company whose market share and ubiquity are associated with the market.) In a new market the good news is that your product features are at first irrelevant because there are no competitors (except other pesky
+================
+there are no competitors (except other pesky startups). The bad news is that the users and the market are undefined and unknown.
+================
+If you’re creating a new market, your problem isn’t how to compete with other companies on product features but how to convince a set of customers that your vision is not a hallucination. Creating a new market requires understanding whether there is
+================
+market requires understanding whether there is a large customer base who couldn’t do this before, whether these customers can be convinced that they want or need your new product, and whether customer adoption occurs in your lifetime. It also
+================
+adoption occurs in your lifetime. It also requires rather sophisticated thinking about financing – how you manage the cash burn rate during the adoption phase, and how you manage and find investors who are patient and have deep pockets
+================
+A New Product Attempting to Resegment an Existing Market: Low Cost Over half of startups pursue the hybrid course of attempting to introduce a new product that resegments an existing market. Resegmenting an existing market can take two forms: a
+================
+an existing market can take two forms: a low-cost strategy or a niche strategy. (By the way, segmentation is not the same as differentiation. Segmentation means that you’ve picked a clear and distinct spot in customers’ minds that is unique,
+================
+distinct spot in customers’ minds that is unique, understandable, and, most important, concerns something they value and want and need now.)
+================
+22 | The Four Steps to the Epiphany Low-cost resegmentation is just what it sounds like – are there customers at the low-end of an existing marketing who will buy “good enough” performance if they could get it at a substantially lower price? If you
+================
+get it at a substantially lower price? If you truly can be a low cost (and profitable) provider, entering existing markets at this end is fun, as incumbent companies tend to abandon low-margin businesses and head up-market.
+================
+A New Product Attempting to Resegment an Existing Market: Niche Niche resegmentation is slightly different. It looks at an existing market and asks, “Would some part of this market buy a new product designed to address their specific needs? Even if
+================
+designed to address their specific needs? Even if it cost more? Or worse performance in an aspect of the product irrelevant to this niche. Niche resegmentation attempts to convince customers that some characteristic of the new product is radical
+================
+some characteristic of the new product is radical enough to change the rules and shape of an existing market. Unlike low-cost resegmentation, niche goes after the core of an existing market’s profitable business. Both cases of resegmenting a market
+================
+business. Both cases of resegmenting a market reframe how people think about the products within an existing market. In-n-Out Burger is a classic case of resegmenting an existing market. Who would have thought that a new fast food chain (now with
+================
+have thought that a new fast food chain (now with 200 company owned stores) could be a successful entrant after McDonalds and Burger King owned the market? Yet In-n-Out succeeded by simply observing that the incumbent players had strayed from their
+================
+that the incumbent players had strayed from their original concept of a hamburger chain. By 2001 McDonald’s had over 55 menu items and not one of them tasted particularly great. In stark contrast, In-n-Out offered three items: all fresh, high
+================
+In-n-Out offered three items: all fresh, high quality and great tasting. They focused on the core fast food segment that wanted high quality hamburgers and nothing else. While resegmenting an existing market is the most common Market Type choice of
+================
+market is the most common Market Type choice of new startups, it’s also the trickiest.
+================
+As a low-end resegmentation strategy, it needs a long-term product plan that uses low cost as market entry to eventual profitability and up-market growth. As a niche resegmentation, this strategy faces entrenched competitors who will fiercely defend
+================
+entrenched competitors who will fiercely defend their profitable markets. And both require adroit and agile positioning of how the new product redefines the market.
+================
+Market Type and the Customer Development Process As a company follows the Customer Development process the importance of Market Type grows in each step. During the first step, Customer Discovery, all startups, regardless of Market Type, leave the
+================
+startups, regardless of Market Type, leave the building and talk to customers. In Customer Validation, the differences between type of startup emerge as sales and positioning strategies diverge rapidly. By Customer Creation, the third step, the
+================
+By Customer Creation, the third step, the difference between startup Market Types is acute as customer acquisition and sales strategy differ dramatically between the types of markets. It is in Customer Creation that startups who do not understand
+================
+Creation that startups who do not understand Market Type spend themselves out of business. Chapter 5, Customer Creation, highlights these potential landmines. The speed with which a company moves through the Customer Development process also depends
+================
+the Customer Development process also depends on Market Type. Even if you quit your old job on Friday and on Monday joined a startup in an existing market producing the same but better product, you still need to answer these questions. This process
+================
+need to answer these questions. This process ought to be a snap, and can be accomplished in a matter of weeks or months. In contrast, a company creating a new market has an open-ended set of questions. Completing the Customer Development processes
+================
+Completing the Customer Development processes may take a year or two or even longer. Table 2.2 sums up the differences between the four Market Types.
+================
+As you’ll see, the Customer Development model provides an explicit methodology for answering the question “What kind of startup are we?” It’s a question you’ll keep coming back to in each of the four steps.
+
+Chapter 2: The Path to Epiphany   | 23
+================
+Existing Market Resegmented Markets New  Market Customers Existing Existing New/New usage Customer Needs Performance 1. Cost 2. Perceived need Simplicity & convenience Performance Better/faster 1. Good enough at the low end 2. Good enough for new
+================
+Good enough at the low end 2. Good enough for new niche Low in “traditional attributes”, improved by new customer metrics Competition Existing Incumbents Existing incumbents Non-consumption /other startups Risks Existing Incumbents 1. Existing
+================
+startups Risks Existing Incumbents 1. Existing incumbents 2. Niche strategy fails Market adoption Table 2.2  Market Type Characteristics SYNCHRONIZING PRODUCT DEVELOPMENT AND CUSTOMER DEVELOPMENT As I suggested in Chapter 1, Customer Development is
+================
+I suggested in Chapter 1, Customer Development is not a substitute for the activities occurring in the Product Development group. Instead, Customer Development and Product Development are parallel processes. While the Customer Development group is
+================
+While the Customer Development group is engaged in customer-centric activities outside the building, the Product Development group is focused on the product-centric activities that are taking place internally. At first glance, it might seem that
+================
+internally. At first glance, it might seem that there isn’t much connection between the two. This is a mistake. For a startup to succeed, Product and Customer Development must remain synchronized and operate in concert. However, the ways the two
+================
+and operate in concert. However, the ways the two groups interact in a startup are 180 degrees from how they would interact in a large company. Engineering’s job in large companies is to make follow-on products for an existing market.
+================
+A follow-on product starts with several things already known: who the customers are, what they need, what markets they are in, and who the company’s competitors are. (All the benefits of being in an existing market plus having customers and
+================
+in an existing market plus having customers and revenue.) The interaction in a large company between Product Development and Customer Development is geared to delivering additional features and functions to existing customers at a price that
+================
+functions to existing customers at a price that maximizes market share and profitability. In contrast, most startups can only guess who their customers are and what markets they are in. The only certainty on day one is what the product vision is. It
+================
+on day one is what the product vision is. It follows, then, that the goal of Customer Development in a startup is to find a market for the product as spec’d, not to develop or refine a spec based on a market that is unknown. This is a fundamental
+================
+a market that is unknown. This is a fundamental difference between a big company and most startups. To put the point another way, big companies tailor their Product Development to known customers. Product features emerge by successive refinement
+================
+Product features emerge by successive refinement against known customer and market requirements and a known competitive environment. As the product features get locked down, how well the product will do with those customers and markets becomes
+================
+will do with those customers and markets becomes clearer. Startups, however, begin with a known product spec and tailor their Product Development to unknown customers. Product features emerge by vision and fiat against unknown customer and market
+================
+and fiat against unknown customer and market requirements.
+================
+As the market and customers get clearer by successive refinement, product features are driven by how well they satisfy this market. In short, in big companies, the product spec is market-driven; in startups, the marketing is product-driven. In both
+================
+the marketing is product-driven. In both cases, Product and Customer Development must go hand in hand, in most startups the only formal synchronization between Engineering and the sales/marketing teams are when they line up for contentious battles.
+================
+are when they line up for contentious battles. Engineering says, “How could you have promised these features to customers? We’re not building that.” Sales responds, “How come the product is missing all the features you promised would be in this
+================
+all the features you promised would be in this release? We need to commit these other features to get an order.” One of the goals of a formal Customer Development process is to ensure that the focus on the product and the focus on the customer
+================
+on the product and the focus on the customer remain in concert without rancor and with a modicum of surprise. A few examples of synchronization points are:
+================
+24 | The Four Steps to the Epiphany • In each of the steps—Customer Discovery, Customer Validation, Customer Creation and Company Building—the Product Development and Customer Development teams meet in a series of formal “synchronization” meetings.
+================
+in a series of formal “synchronization” meetings. Unless the two groups agree, Customer Development does not move forward to the next step. • In Customer Discovery, the Customer Development team strives to validate the product spec, not come up with
+================
+to validate the product spec, not come up with a new set of features.TP PTIf customers do not agree that there’s a problem to be solved, or think that the problem is not painful, or don’t deem the product spec solves their problem, only then do the
+================
+spec solves their problem, only then do the customer and Product Development teams reconvene to add or refine features. • Also in Customer Discovery, when customers have consistently said that new or modified product features are required, the VP of
+================
+modified product features are required, the VP of Product Development goes out with the team to listen to customer feedback before new features are added. • In Customer Validation, key members of the Product Development team go out in front of
+================
+the Product Development team go out in front of customers as part of the pre-sales support team. • In Company Building, the Product Development team does installations and support for initial product while training the support and service staff. As
+================
+while training the support and service staff. As you proceed through the detailed phases of each step in the chapters to come, you’ll see that this emphasis on synchronization runs through the entire Customer Development process.
+================
+SUMMARY: THE CUSTOMER DEVELOPMENT PROCESS The Customer Development model consists of four well-defined steps: Customer Development, Customer Validation, Customer Creation, and Company Building. As you will see in succeeding chapters, each of these
+================
+will see in succeeding chapters, each of these steps has a set of clear, concise deliverables that give the company and its investors incontrovertible proof that progress is being made on the customer front. Moreover, the first three steps of
+================
+front. Moreover, the first three steps of Customer Development can be accomplished with a staff that can fit in a phone booth. While each step has its own specific objectives, the process as a whole has one overarching goal: proving that there is a
+================
+has one overarching goal: proving that there is a profitable, scalable business for the company. This is what turns the company from a nonprofit into a moneymaking endeavor. Being a great entrepreneur means finding the path through the fog and
+================
+means finding the path through the fog and confusion and myriad of choices. To do that, you need not only vision but a process. This book gives you the process. Its premise is simple: if you execute the four steps of Customer Development rigorously
+================
+the four steps of Customer Development rigorously and thoroughly, you increase the odds of achieving success, and you can reach the epiphany.
+================
+Chapter 2: The Path to Epiphany   | 25
+================
+Chapter 3: Customer Discovery  |    26 Test “Problem” Hypothesis Demand Creation Hypothesis Market Type Hypothesis Product Hypothesis Customer & Problem Hypothesis Distribution & Pricing Hypothesis Competitive Hypothesis State Your Hypotheses Market
+================
+Hypothesis State Your Hypotheses Market Knowledge Friendly First Contacts “Problem” Presentation Customer Understanding
+================
+Second
+
+Reality Check
+
+First Reality
+
+Check
+
+“Product”
+
+Presentation
+
+Yet More
+
+Customer
+
+Visits
+
+Test “Product” Hypothesis
+
+Iterate or
+
+Exit
+
+Verify the
+
+Problem
+
+Verify the
+
+Product
+
+Verify the
+
+Business
+
+Model
+
+Verify
+
+Customer Discovery Step
+================
+Model
+
+Verify
+
+Customer Discovery Step
+
+
+
+by
+
+
+
+Step
+
+1st Advisory
+
+Board
+
+Chapter 3: Customer Discovery  | 27
+================
+Chapter 3 Customer Discovery A journey of a thousand miles begins with a single step. — Lao-tzu In 1994, Steve Powell had an idea for a new type of home office device. Capitalizing on the new high- speed phone connection called ISDN, Steve
+================
+high- speed phone connection called ISDN, Steve envisioned creating the Swiss Army knife of home office devices. His box would offer fax, voicemail, intelligent call forwarding, email, video and phone all rolled into one. Initially Steve envisioned
+================
+all rolled into one. Initially Steve envisioned that the market for his device would be the 11 million people with small offices or home offices (the SOHO market). Steve’s technical vision was compelling, and he raised $3 million in his first round
+================
+and he raised $3 million in his first round of funding for his company, FastOffice. Like most technology startups, FastOffice was first headed by its creator, even though Steve was an engineer by training. A year after he got his first round of
+================
+training. A year after he got his first round of funding, he raised another $5 million at a higher valuation. In good Silicon Valley tradition, his team followed the canonical product development diagram, and in eighteen months he had first customer
+================
+and in eighteen months he had first customer ship of his product called Front Desk. There was just one small problem. Front Desk cost $1395, and at that price, customers were not exactly lining up at FastOffice’s door. Steve’s board had assumed that
+================
+FastOffice’s door. Steve’s board had assumed that like all technology startups, first customer ship meant FastOffice was going to ramp up sales revenues the day the product was available. Six months after first customer ship, the company had missed
+================
+after first customer ship, the company had missed its revenue plan and the investors were unhappy.
+================
+It was at about this time that I met Steve and his management team. His venture firm asked me to come by and help Steve with his “positioning.” (Today when I hear that request I realize it’s code for “The product is shipping, but we’re not selling
+================
+“The product is shipping, but we’re not selling any. Got any ideas?”) When I got a demo of Front Desk, my reaction was, “Wow, that’s really an innovative device. I’d love to have one at home. How much is it?” When Steve told me it was $1400, my
+================
+much is it?” When Steve told me it was $1400, my response was, “Gosh, I wouldn’t buy one, but can I be a beta site?” I still remember Steve’s heated reply: “That’s the reaction everyone has. What’s wrong? Why wouldn’t you buy one?” The stark reality
+================
+Why wouldn’t you buy one?” The stark reality was that FastOffice had built a Rolls Royce for people with Volkswagen budgets. Few—unfortunately, very few—small home businesses could afford it. Steve and his team made one of the standard startup
+================
+and his team made one of the standard startup mistakes. They had developed a great product, but they had neglected to spend an equivalent amount of time developing the market. The Company Building Customer Discovery Customer Validation Customer
+================
+Customer Discovery Customer Validation Customer Creation
+================
+STOPSTOPSTOP
+================
+28 | The Four Steps to the Epiphany home office market simply had no compelling need that made Front Desk a “must have,” especially at a high price. FastOffice had a solution in search of a problem. When Steve and his team realized that individuals
+================
+When Steve and his team realized that individuals were simply not going to shell out $1400 for a “nice to have peripheral,” they needed a new strategy. Like all startups faced with this problem, FastOffice fired its VP of Sales and came up with a
+================
+fired its VP of Sales and came up with a new sales and marketing strategy. Now, instead of selling to individuals who worked at home, the company would sell to Fortune 1000 corporations who had a “distributed workforce”—salespeople who had offices
+================
+workforce”—salespeople who had offices at home. The rationale was that a VP of Sales of a large corporation could justify spending $1400 on a high-value employee. The thought was that the “new” product, now renamed HomeDesk, could make a single
+================
+now renamed HomeDesk, could make a single salesperson appear like a large corporate office. While the new strategy sounded great on paper, it suffered from the same problem as the first: the product might be nice to have, but there was no compelling
+================
+be nice to have, but there was no compelling problem it was solving. Vice presidents of sales at major corporations were not going to bed at night worrying about their remote offices. They were worrying about how to make their sales numbers. What
+================
+about how to make their sales numbers. What ensued was the startup version of the ritualized Japanese Noh play I mentioned in Chapter 1. Faced with the failure of Plan B, FastOffice fired the VP of Marketing and came up with yet another new
+================
+VP of Marketing and came up with yet another new strategy.
+================
+The company was now on the startup death spiral: the executive staff changed with each new strategy. After the third strategy didn’t work either, Steve was no longer CEO and the board brought in an experienced business executive. What’s interesting
+================
+business executive. What’s interesting about the FastOffice story is not that it’s unique but that it’s so common. Time and again, startups focus on first customer ship, and only after the product is out the door do they find out that customers
+================
+is out the door do they find out that customers aren’t behaving as expected. By the time the company realizes that sales revenues won’t meet expectations, it’s already behind the proverbial eight ball. Is this the end of the story? No, we’ll revisit
+================
+Is this the end of the story? No, we’ll revisit FastOffice after we explain the Customer Discovery philosophy. Like most startups, FastOffice knew how to build a product and how to measure progress toward the product ship date. What the company
+================
+toward the product ship date. What the company lacked was a set of early Customer Development goals that would have allowed it to measure its progress in understanding customers and finding a market for its product. These goals would have been
+================
+for its product. These goals would have been achieved when FastOffice could answer four questions: • Have we identified a problem a customer wants solved? • Does our product solve these customer needs? • If so, do we have a viable and profitable
+================
+• If so, do we have a viable and profitable business model? • Have we learned enough to go out and sell? Answering these questions is the purpose of the first step in the Customer Development model, Customer Discovery. This chapter explains how to
+================
+Customer Discovery. This chapter explains how to go about it.
+================
+THE CUSTOMER DISCOVERY PHILOSOPHY Let me state the purpose of Customer Discovery a little more formally. A startup begins with a vision: a vision of a new product or service, a vision of how the product will reach its customers, and a vision of why
+================
+will reach its customers, and a vision of why lots of people will buy that product. But most of what a startup’s founders initially believe about their market and potential customers are just educated guesses. To turn the vision into reality (and a
+================
+guesses. To turn the vision into reality (and a profitable company), a startup must test those guesses, or hypotheses, and find out which are correct. So the general goal of Customer Discovery amounts to this: turning the founders’ initial
+================
+amounts to this: turning the founders’ initial hypotheses about their market and customers into facts. And since the facts live outside the building, the primary activity is to get in front of customers. Only after the founders have performed this
+================
+Only after the founders have performed this step will they know whether they have a valid vision or just a hallucination. Sounds simple, doesn’t it? Yet for anyone who has worked in established companies, the Customer Discovery process is
+================
+companies, the Customer Discovery process is disorienting. All the rules that marketers learn about product management in large companies are turned upside down. It’s instructive to enumerate all things you are not going to do: • understand the
+================
+things you are not going to do: • understand the needs and wants of all customers • make a list of all the features customers want before they buy your product • hand Product Development a features list of the sum of all customer requests • hand
+================
+list of the sum of all customer requests • hand Product Development a detailed marketing requirements document
+================
+Chapter 3: Customer Discovery| 29 • run focus groups and test customers’ reactions to your product to see if they will buy • Instead, you are going to develop your product for the few, not the many. Moreover, you’re going to start building your
+================
+Moreover, you’re going to start building your product even before you know whether you have any customers for it. For an experienced marketing or product management executive, these statements are not only disorienting and counterintuitive; they are
+================
+only disorienting and counterintuitive; they are heretical. Everything I am saying you are not supposed to do is what marketing and product management professionals have been trained to do well. Why aren’t the needs of all potential customers
+================
+Why aren’t the needs of all potential customers important? What is it about a first product from a new company that’s different from follow-on products in a large company? What is it about a startup’s first customers that make the rules so
+================
+startup’s first customers that make the rules so different?
+================
+Develop the Product for the Few, Not the Many In a traditional product management and marketing process the goal is to develop a Marketing Requirements Document (MRD) for engineering. The MRD contains the sum of all the possible customer feature
+================
+the sum of all the possible customer feature requests, prioritized in a collaborative effort between Marketing, Sales and Engineering. Marketing holds focus groups, analyzes sales data from the field, and looks at customer feature requests and
+================
+field, and looks at customer feature requests and complaints. This information leads to requested features that are added to the product specification, and the engineering team builds these features into the next release. While this process is
+================
+into the next release. While this process is rational for an established company entering an existing market, it is folly for startups. Why? In established companies, the MRD process ensures that engineering will build a product that appeals to an
+================
+will build a product that appeals to an existing market. But in either case the customers and their needs are known. In a startup, the first product is not designed to satisfy a mainstream customer. No startup can afford the engineering effort or
+================
+No startup can afford the engineering effort or the time to build a product with every feature that a mainstream customer needs in its first release. The product would take years to get to market and be obsolete by the time it arrives. A successful
+================
+be obsolete by the time it arrives. A successful startup solves this conundrum by focusing its development and early selling efforts on a very small group of early customers who have bought into the startup’s vision.
+================
+It is this small group of visionary customers who will give the company the feedback necessary to add features into follow-on releases. Enthusiasts for products who spread the good news are often called evangelists. But we need a new word to
+================
+called evangelists. But we need a new word to describe visionary customers—those who will not only spread the good news about unfinished and untested products but also buy them. For that reason I often refer to them as earlyvangelists. 2 PT
+================
+Earlyvangelists: The Most Important Customers You’ll Ever Know Earlyvangelists are a special breed of customers willing to take a risk on your startup’s product or service because they can actually envision its potential to solve a critical and
+================
+envision its potential to solve a critical and immediate problem— and they have the budget to purchase it. Unfortunately, most customers don’t fit this profile. Here’s an example from the corporate world. Imagine a bank with a line around the block
+================
+Imagine a bank with a line around the block on Fridays as customers wait an hour or more to get in and cash their paychecks. Now imagine you are one of the founders of a software company whose product could help the bank reduce customers’ waiting
+================
+could help the bank reduce customers’ waiting time to ten minutes. You go into the bank and tell the president, “I have a product that can solve your problem.” If his response is “What problem?” you have a customer who does not recognize he has a
+================
+have a customer who does not recognize he has a pressing need you can help him with. There is no time in the first two years in the life of a startup that he will be a customer, and any feedback from him about product needs would be useless.
+================
+from him about product needs would be useless. Customers like these are the traditional “late adopters” because they have a “latent need.” Another response from the bank president could be “Yes, we have a terrible problem.
+================
+I feel very bad about it, and I hand out cups of water to our customers waiting in line on the hottest days of the year.” In this case, the bank president is one of those customers who recognize they have a problem but haven’t been motivated to do
+================
+have a problem but haven’t been motivated to do anything more than paper over the symptoms. They may provide
+================
+T2 T There’s a great body of work on the area of “Lead Users” popularized by Eric Von Hippel of MIT. Also see Enos 1962, Freeman 1968, Shaw 1985, Lilen & Morrison 2001.
+================
+30 | The Four Steps to the Epiphany useful feedback about the types of problems they’re experiencing, but more than likely they will not be first in line to buy a new product. Since they have an “active need,” you can probably sell to these
+================
+an “active need,” you can probably sell to these customers later, when you can deliver a “mainstream” product, but not today. If it’s a good day, you may run into a bank president who says, “Yes, this is a heck of a problem. In fact, we’re losing
+================
+is a heck of a problem. In fact, we’re losing over $500,000 a year in business. I’ve been looking for a software solution that will cut down our check cashing and processing time by 70%. The software has to integrate with our bank’s Oracle back end,
+================
+has to integrate with our bank’s Oracle back end, and it has to cost less than $150,000. And I need it delivered in six months.” Now you’re getting warm; this is a customer who has “visualized the solution.” It would be even better if the president
+================
+It would be even better if the president said, “I haven’t seen a single software package that solves our problem, so I wrote a request for our IT department to develop one. They’ve cobbled together a solution, but it keeps crashing on my tellers and
+================
+solution, but it keeps crashing on my tellers and my CIO is having fits keeping it running.” You’re almost there: you’ve found a customer who has such a desperate problem that he has had his own homegrown solution built out of piece parts. Finally,
+================
+solution built out of piece parts. Finally, imagine that the bank president says, “Boy, if we could ever find a vendor who could solve this problem, we could spend the $500,000 I’ve budgeted with them.” (Truth be told, no real live customer has ever
+================
+(Truth be told, no real live customer has ever said that. But we can dream, can’t we?)
+================
+At this point, you have found the ultimate customer for a startup selling to corporate customers. While consumer products usually don’t have as many zeros in them, earlyvangelist consumers can be found by tracing out the same hierarchy of needs.
+================
+found by tracing out the same hierarchy of needs. Earlyvangelists can be identified by these customer characteristics (see Figure 3.1): • The customer has a problem. • The customer understands he or she has a problem. • The customer is actively
+================
+or she has a problem. • The customer is actively searching for a solution and has a timetable for finding it. • The problem is painful enough that the customer has cobbled together an interim solution. • The customer has committed, or can quickly
+================
+• The customer has committed, or can quickly acquire, budget dollars to solve the problem. Figure 3.1  Earlyvangelist Characteristics You can think of these characteristics as making up a scale of customer pain. Characterizing customers’ pain on
+================
+customer pain. Characterizing customers’ pain on this scale is a critical part of Customer Discovery. My contention is that earlyvangelist customers will be found only at points 4 and 5: those who have already built a homegrown solution (whether in
+================
+already built a homegrown solution (whether in a company by building a software solution, or at home by taping together a fork, light bulb and vacuum cleaner) and have or can acquire a budget. These people are perfect candidates to be
+================
+budget. These people are perfect candidates to be earlyvangelists. They are the ones you will rely on for feedback and for your first sales; the ones who will tell others about your product and spread the word that the vision is real.
+================
+Moreover, when you meet them, you mentally include them on your list of expert customers to add to your advisory board (more about advisory boards in Chapter 4).
+================
+55..      HHaass  oorr  CCaann  AAccqquuiirree aa  BBuuddggeett 33..          HHaass  BBeeeenn  AAccttiivveellyy  LLooookkiinngg ffoorr  aa  SSoolluuttiioonn 11..                                                    HHaass  aa  PPrroobblleem m 22..
+================
+HHaass  aa  PPrroobblleem m 22..                          IIss  AAw waarree  ooff  HHaavviinngg  aa  PPrroobblleem m 44..            HHaass  PPuutt  TTooggeetthheerr  aa SSoolluuttiioonn  oouutt  ooff  PPiieeccee  PPaarrttss
+================
+Chapter 3: Customer Discovery| 31 Start Development Based on the Vision The idea that a startup builds its product for a small group of initial customers, rather than devising a generic mainstream spec, is radical. What follows is equally
+================
+spec, is radical. What follows is equally revolutionary. On the day the company starts, there is very limited customer input to a product specification. The company doesn’t know who its initial customers are (but it may think it knows) or what they
+================
+are (but it may think it knows) or what they will want as features. One alternative is to put Product Development on hold until the Customer Development team can find those customers. However, having a product you can demonstrate and iterate is
+================
+a product you can demonstrate and iterate is helpful in moving the Customer Development process along. A more productive approach is to proceed with Product Development, with the feature list driven by the vision and experience of the company’s
+================
+by the vision and experience of the company’s founders. Therefore, the Customer Development model has your founding team take the product as spec’d and search to see if there are customers—any customers—who will buy the product exactly as you have
+================
+will buy the product exactly as you have defined it. When you do find those customers, you tailor the first release of the product so it satisfies their needs. The shift in thinking is important. For the first product in a startup, your initial
+================
+For the first product in a startup, your initial purpose in meeting customers is not to gather feature requests so that you can change the product. Instead, your purpose in talking to customers is to find customers for the product you are already
+================
+to find customers for the product you are already building.
+================
+If and only if, no customers can be found for the product as spec’d do you bring the features customers requested to the Product Development team. In the Customer Development model, then, feature request is by exception rather than rule. This
+================
+request is by exception rather than rule. This eliminates the endless list of requests that often delay first customer ship and drive your Product Development team crazy. If Product Development is simply going to start building the product without
+================
+going to start building the product without any customer feedback, why have anyone talk to customers at all? Why don’t you just build the product, ship it, and hope someone wants to buy it? The operative word is start building the product. The job
+================
+word is start building the product. The job of Customer Development is to get the company’s customer knowledge to catch up to the pace of Product Development—and in the process, to guarantee that there will be paying customers the day the product
+================
+will be paying customers the day the product ships. An important side benefit is the credibility that the Customer Development team accrues internally within your organization. Product Development will be interacting with a team that actually
+================
+will be interacting with a team that actually understands customer needs and desires. Product Development no longer will roll their eyes after every request for features or changes to the product, but instead understand they come from a deep
+================
+but instead understand they come from a deep understanding of customer needs. As the Customer Development team discovers new insights about the needs of this core group of initial customers, it can provide valuable feedback to the Product
+================
+it can provide valuable feedback to the Product Development group.
+================
+As you’ll see, these Customer Development/Product Development synchronization meetings ensure that once key customer information does become available it is integrated into the future development of the product. To sum up the Customer Discovery
+================
+of the product. To sum up the Customer Discovery philosophy: in sharp contrast to the MRD approach of building a product for a wide group of customers, a successful startup’s first release is designed to be “good enough only for our first paying
+================
+to be “good enough only for our first paying customers.” The purpose of Customer Discovery is to identify those key visionary customers, understand their needs, and verify that your product solves a problem that they are willing to pay to have
+================
+a problem that they are willing to pay to have solved—or not. Meanwhile, you start development based on your initial vision, using your visionary customers to test whether that vision has a market. And you adjust your vision according to what you
+================
+And you adjust your vision according to what you find out. If FastOffice had understood this philosophy, it could have avoided several false starts. As it happens, there was a happy ending (at least for some later-stage investors), as the company
+================
+for some later-stage investors), as the company survived and lived to play again. The new CEO worked with Steve Powell (who became the chief technical officer) to understand the true technical assets of the company. The new leadership terminated the
+================
+of the company. The new leadership terminated the sales and marketing staff and pared the company back to the core engineering team. What they discovered was that their core asset was in the data communications technology that offered voice over
+================
+communications technology that offered voice over data communications lines.
+================
+FastOffice discarded its products for the home, refocused, and became a major supplier of equipment to telecommunications carriers. The Customer Discovery process would have gotten the company there a lot sooner.
+================
+32 | The Four Steps to the Epiphany OVERVIEW OF THE CUSTOMER DISCOVERY PROCESS I’ve already touched on some of the elements of the philosophy behind this first step in the Customer Development model. Here’s a quick overview of the entire process as
+================
+Here’s a quick overview of the entire process as it is developed in Part Two. As with all the steps in Customer Development, I divide Customer Discovery into phases. Unlike subsequent steps, Customer Development has a “phase 0,” before you can even
+================
+Development has a “phase 0,” before you can even get started, you need buy-in from your board and your executive staff. After that, Customer Discovery has four phases (see Figure 3.2).
+================
+Figure 3.2  Customer Discovery: Overview of the Process Phase 1 is a rigorous process of writing a series of briefs that capture the hypotheses embodied in your company’s vision. These hypotheses are the assumptions about your product, customers,
+================
+the assumptions about your product, customers, pricing, demand, market, and competition that you will test in the remainder of this step. In phase 2 you qualify those assumptions by testing them in front of potential customers. At this point you
+================
+front of potential customers. At this point you want to do very little talking and a lot of listening. Your goal is to understand your customers and their problems, and while doing so get a deep understanding of their business, their workflow, their
+================
+of their business, their workflow, their organization, and their product needs. You then return to your company, integrate all you learned, update Engineering with customer feedback, and jointly revise your product and customer briefs. In phase 3
+================
+your product and customer briefs. In phase 3 you take your revised product concept and test its features in front of customers. The goal is not to sell the product but to validate the phase 1 hypotheses by having customers say, “Yes, these features
+================
+by having customers say, “Yes, these features solve our problems.” At the same time that you’ve been testing the product features, you’ve been also testing a bigger idea: the validity of your entire business model. A valid business model consists of
+================
+model. A valid business model consists of customers who place a high value on your solution, as well as finding that the solution you offer is, (for a company,) a mission-critical solution, or (for a consumer,) a “have-to-have” product.
+================
+In front of potential buyers, you test your pricing, your channel strategy, your sales process and sales cycle, and discover who is the economic buyer (the one with a budget). This is equally true for consumer products where a sale to a teenager
+================
+for consumer products where a sale to a teenager might mean the economic buyer is the parent while the user is the child. Finally, in phase 4 you stop and verify that you understand customers’ problems, that the product solves those problems, that
+================
+that the product solves those problems, that customers will pay for the product, and that the resulting revenue will result in a profitable business model. This phase culminates in the deliverables for the Customer Discovery step: a problem
+================
+for the Customer Discovery step: a problem statement document, an expanded product requirement document, an updated sales and revenue plan, and a sound business and product plan. With your product features and business model validated, you decide
+================
+features and business model validated, you decide whether you have learned enough to go out and try to sell a select your product to a few visionary customers or whether you need to go back Customer Discovery Market Validatio Phase 1 State
+================
+Customer Discovery Market Validatio Phase 1 State Hypotheses Phase 2 Test Problem Hypotheses Phase 4 Verify Phase 3 Test Product Concept Validation
+================
+Chapter 3: Customer Discovery| 33 to customers to learn some more. If, and only if, you are successful in this step do you proceed to Customer Validation. That’s Customer Discovery in a nutshell. The remainder of this chapter details each of the
+================
+The remainder of this chapter details each of the phases I have just described. The summary chart at the end of the chapter captures this step in detail along with the deliverables that will tell you whether you’ve succeeded. But before you move
+================
+you whether you’ve succeeded. But before you move into the details of each phase, you need to understand who is going to be doing the work of Customer Development. Who comprises the Customer Development team?
+================
+The Customer Development Team The Customer Development process gives up traditional titles and replaces them with ones that are more functional. As a startup moves through the first two steps of the process, it has no Sales, Marketing, or Business
+================
+process, it has no Sales, Marketing, or Business Development organizations or VPs. Instead, it relies on an entrepreneurial Customer Development team (see Appendix A for the rationale for the Customer Development team concept. At first, this “team”
+================
+Development team concept. At first, this “team” may consist of the company’s technical founder who moves out to talk with customers while five engineers write code (or build hardware, or design a new coffee cup, etc.). More often than not it
+================
+a new coffee cup, etc.). More often than not it includes a “head of Customer Development” who has a product marketing or product management background and is comfortable moving back and forth between customer and Product Development conversations.
+================
+customer and Product Development conversations. Later, as the startup moves into the Customer Validation step, the Customer Development team may grow to several people including a dedicated “sales closer” responsible for the logistics of getting
+================
+closer” responsible for the logistics of getting early orders signed. But whether it is a single individual or a team, Customer Development must have the authority to radically change the company’s direction, product or mission and the creative,
+================
+direction, product or mission and the creative, flexible mindset of an entrepreneur.
+================
+To succeed in this process, they must possess: • The ability to listen to customer objections and understand whether they are issues about the product, the presentation, the pricing, or something else (or the wrong type of customer.) • Experience in
+================
+(or the wrong type of customer.) • Experience in moving between the customer to Product Development team • The ability to embrace constant change. • The capacity to put themselves in their customers’ shoes and understand how they work and what
+================
+shoes and understand how they work and what problems they have. Complementing the Customer Development team is a startup’s product execution team. While Customer Development is out of the building talking with customers, the product team is focused
+================
+with customers, the product team is focused on creating the actual product. Often this team is headed by the product visionary who leads the development effort. As you will see, regular communication between Customer Development and product
+================
+between Customer Development and product execution is a critical requirement.
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================
+Architecture of isolation zone, namely, the IZ.
+================
+I'll briefly introduce the mechainism for setting up the IZ for the sake of data privacy. I won't go into detail, instead I'll just summerize some key steps to build the IZ. First of all, you create a VPC for an isolated network. After that, you
+================
+a VPC for an isolated network. After that, you create a vpn and associate it with one of the subnets of the vpc just created. Now you can test the connectivity using aws vpn client. Then, create other components include EC2, ECR, EKS, S3 and
+================
+other components include EC2, ECR, EKS, S3 and configure their networking setting to include them into the vpc just created. Last but not the least, create the endpoints on vpc for those components for fully private cluster and then turn off public
+================
+fully private cluster and then turn off public network access by editing the routing table for each of the subnets. Now you have fully acitved isolation zone for model training and inference. The isolation zone will be built on both side, biomap and
+================
+zone will be built on both side, biomap and sanofi with mirrored structure using S3 for sharing and transferring data. And we use IAM to manage the access.
+================
+6 components: VPC,EC2,ECR,EKS,EFS,S3
+================
+1. VPC, virtual private cloud, is the subnet with which the other components will be using to communitcate 2. S3, shared object storage for biomap and sanofi to share and transfer data including sample, training outputs, logs and the tool-sdk
+================
+sample, training outputs, logs and the tool-sdk binaries 3. ECR container registry serves as a docker image repository 4. EKS, the kubernetes service is for distributed trainning 5. EFS, the file system is for distributed storage for saving
+================
+file system is for distributed storage for saving trainning input and output 6, EC2, the computing cloud will be used for inference job and an agent to submit trainning task to EKS
+================
+Biomap will setup another IZ with a mirrored architecture, for testing and trainning
+================

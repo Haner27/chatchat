@@ -96,11 +96,8 @@ class FaissKBService(KBService):
                     progress += batch_size
                     import time
 
-                    time.sleep(30)
+                    time.sleep(1)
                     logger.info(f"adding documents:  {progress}/{total}")
-
-                    if progress == 1000:
-                        break
 
             if not kwargs.get("not_refresh_vs_cache"):
                 vs.save_local(self.vs_path)
