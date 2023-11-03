@@ -12,18 +12,21 @@ api = ApiRequest(base_url=api_address())
 
 
 def pdf_chat(api):
-
     # Session state to manage the user's uploaded file and chat history
-    if "uploaded_file" not in st.session_state:
-        st.session_state.uploaded_file = False
+    if "kb_name" not in st.session_state:
+        st.session_state.kb_name = None
 
     # Page 1: File Upload
-    if not st.session_state.uploaded_file:
-        knowledge_base_page(api)
-        if st.session_state.uploaded_file:
+    if not st.session_state.kb_name:
+        st.session_state.kb_name = knowledge_base_page(api)
+        if st.session_state.kb_name:
             st.rerun()
     else:
-        dialogue_page(api)
+        dialogue_page(api, "知识库问答", st.session_state.kb_name)
+
+
+def chat(api):
+    dialogue_page(api)
 
 
 # Define the Streamlit app
@@ -31,6 +34,10 @@ def app():
 
     pages = {
         "对话": {
+            "icon": "chat",
+            "func": chat,
+        },
+        "文档对话": {
             "icon": "chat",
             "func": pdf_chat,
         },

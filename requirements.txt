@@ -53,3 +53,4 @@ tiktoken
 einops
 scipy
 transformers_stream_generator==0.0.4
+aiosqlite

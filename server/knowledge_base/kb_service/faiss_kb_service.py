@@ -73,7 +73,7 @@ class FaissKBService(KBService):
     def do_add_doc(
         self,
         docs: List[Document],
-        batch_size: int = 100,
+        batch_size: int = 300,
         **kwargs,
     ) -> List[Dict]:
 
@@ -96,9 +96,10 @@ class FaissKBService(KBService):
                     progress += batch_size
                     import time
 
-                    time.sleep(1)
+                    time.sleep(60)
                     logger.info(f"adding documents:  {progress}/{total}")
-
+                    if progress == 600:
+                        break
             if not kwargs.get("not_refresh_vs_cache"):
                 vs.save_local(self.vs_path)
         doc_infos = [{"id": id, "metadata": doc.metadata} for id, doc in zip(ids, docs)]

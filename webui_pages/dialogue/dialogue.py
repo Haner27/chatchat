@@ -62,7 +62,7 @@ def get_default_llm_model(api: ApiRequest) -> (str, bool):
     return list(running_models)[0], False
 
 
-def dialogue_page(api: ApiRequest):
+def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: str = None):
     if not chat_box.chat_inited:
         default_model = get_default_llm_model(api)[0]
         st.toast(
@@ -70,6 +70,7 @@ def dialogue_page(api: ApiRequest):
             f"当前运行的模型`{default_model}`, 您可以开始提问了."
         )
         chat_box.init_session()
+
     with st.sidebar:
         # TODO: 对话模型与会话绑定
         def on_mode_change():
@@ -93,7 +94,7 @@ def dialogue_page(api: ApiRequest):
         #            on_change=on_mode_change,
         #            key="dialogue_mode",
         #        )
-        dialogue_mode = "知识库问答"
+        dialogue_mode = dialogue_mode
 
         def on_llm_change():
             if llm_model:
@@ -184,7 +185,7 @@ def dialogue_page(api: ApiRequest):
                 index = 0
                 if DEFAULT_KNOWLEDGE_BASE in kb_list:
                     index = kb_list.index(DEFAULT_KNOWLEDGE_BASE)
-                selected_kb = "d2l"
+                selected_kb = kb_name
                 kb_top_k = st.number_input("匹配知识条数：", 1, 20, VECTOR_SEARCH_TOP_K)
 
                 ## Bge 模型会超过1
