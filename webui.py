@@ -7,7 +7,6 @@ from configs import VERSION
 from server.utils import api_address
 import pdfplumber
 
-
 api = ApiRequest(base_url=api_address())
 
 
@@ -29,9 +28,12 @@ def chat(api):
     dialogue_page(api)
 
 
+def auth(api):
+    auth_page(api)
+
+
 # Define the Streamlit app
 def app():
-
     pages = {
         "对话": {
             "icon": "chat",
@@ -44,6 +46,10 @@ def app():
         "知识库管理": {
             "icon": "hdd-stack",
             "func": real_knowledge_base_page,
+        },
+        "认证": {
+            "icon": "chat",
+            "func": auth,
         },
     }
 
