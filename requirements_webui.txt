@@ -9,3 +9,4 @@ httpx>=0.25.0
 nltk>=3.8.1
 watchdog
 websockets
+extra_streamlit_components

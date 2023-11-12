@@ -10,7 +10,8 @@ from configs.server_config import OPEN_CROSS_DOMAIN
 import argparse
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
-from starlette.responses import RedirectResponse
+from fastapi import Request
+from starlette.responses import RedirectResponse, JSONResponse, PlainTextResponse
 from server.chat import (chat, knowledge_base_chat, openai_chat,
                          search_engine_chat, agent_chat)
 from server.knowledge_base.kb_api import list_kbs, create_kb, delete_kb
@@ -21,6 +22,7 @@ from server.llm_api import (list_running_models, list_config_models,
                             change_llm_model, stop_llm_model,
                             get_model_config, list_search_engines)
 from server.utils import BaseResponse, ListResponse, FastAPI, MakeFastAPIOffline, get_server_configs
+from server.common.token import Token
 from typing import List
 
 nltk.data.path = [NLTK_DATA_PATH] + nltk.data.path
@@ -47,6 +49,15 @@ def create_app():
             allow_methods=["*"],
             allow_headers=["*"],
         )
+
+    # 定义中间件
+    @app.middleware("http")
+    async def auth_middleware(request: Request, call_next):
+        auth_token = request.cookies.get('auth_token')
+        if not Token(auth_token).is_valid:
+            return JSONResponse(content={'errorMsg': 'Unauthorized'}, status_code=401)
+        response = await call_next(request)
+        return response
 
     app.get("/",
             response_model=BaseResponse,

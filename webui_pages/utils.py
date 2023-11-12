@@ -20,27 +20,45 @@ from configs import (
     logger, log_verbose,
 )
 import httpx
+
+from datetime import datetime, timedelta
 from server.chat.openai_chat import OpenAiChatMsgIn
 import contextlib
 import json
 import os
 from io import BytesIO
+
 from server.utils import run_async, set_httpx_config, api_address, get_httpx_client
-
+import streamlit as st
 from pprint import pprint
-
+from functools import wraps
 
 set_httpx_config()
+
+
+def add_cookie(func):
+    @wraps(func)
+    def deco(*args, **kwargs):
+        auth_token = st.session_state.get('auth_token')
+        print(auth_token)
+        if 'cookies' not in kwargs:
+            kwargs['cookies'] = {'auth_token': auth_token}
+        else:
+            kwargs['cookies']['auth_token'] = auth_token
+        return func(*args, **kwargs)
+
+    return deco
 
 
 class ApiRequest:
     '''
     api.py调用的封装（同步模式）,简化api调用方式
     '''
+
     def __init__(
-        self,
-        base_url: str = api_address(),
-        timeout: float = HTTPX_DEFAULT_TIMEOUT,
+            self,
+            base_url: str = api_address(),
+            timeout: float = HTTPX_DEFAULT_TIMEOUT,
     ):
         self.base_url = base_url
         self.timeout = timeout
@@ -55,13 +73,14 @@ class ApiRequest:
                                             timeout=self.timeout)
         return self._client
 
+    @add_cookie
     def get(
-        self,
-        url: str,
-        params: Union[Dict, List[Tuple], bytes] = None,
-        retry: int = 3,
-        stream: bool = False,
-        **kwargs: Any,
+            self,
+            url: str,
+            params: Union[Dict, List[Tuple], bytes] = None,
+            retry: int = 3,
+            stream: bool = False,
+            **kwargs: Any,
     ) -> Union[httpx.Response, Iterator[httpx.Response], None]:
         while retry > 0:
             try:
@@ -75,15 +94,20 @@ class ApiRequest:
                              exc_info=e if log_verbose else None)
                 retry -= 1
 
+    @add_cookie
     def post(
-        self,
-        url: str,
-        data: Dict = None,
-        json: Dict = None,
-        retry: int = 3,
-        stream: bool = False,
-        **kwargs: Any
+            self,
+            url: str,
+            data: Dict = None,
+            json: Dict = None,
+            retry: int = 3,
+            stream: bool = False,
+            **kwargs: Any
     ) -> Union[httpx.Response, Iterator[httpx.Response], None]:
+        auth_token = st.session_state.get('auth_token')
+        if 'cookies' not in kwargs:
+            kwargs['cookies'] = {'auth_token': auth_token}
+
         while retry > 0:
             try:
                 if stream:
@@ -96,14 +120,15 @@ class ApiRequest:
                              exc_info=e if log_verbose else None)
                 retry -= 1
 
+    @add_cookie
     def delete(
-        self,
-        url: str,
-        data: Dict = None,
-        json: Dict = None,
-        retry: int = 3,
-        stream: bool = False,
-        **kwargs: Any
+            self,
+            url: str,
+            data: Dict = None,
+            json: Dict = None,
+            retry: int = 3,
+            stream: bool = False,
+            **kwargs: Any
     ) -> Union[httpx.Response, Iterator[httpx.Response], None]:
         while retry > 0:
             try:
@@ -118,18 +143,19 @@ class ApiRequest:
                 retry -= 1
 
     def _httpx_stream2generator(
-        self,
-        response: contextlib._GeneratorContextManager,
-        as_json: bool = False,
+            self,
+            response: contextlib._GeneratorContextManager,
+            as_json: bool = False,
     ):
         '''
         将httpx.stream返回的GeneratorContextManager转化为普通生成器
         '''
+
         async def ret_async(response, as_json):
             try:
                 async with response as r:
                     async for chunk in r.aiter_text(None):
-                        if not chunk: # fastchat api yield empty bytes on start and end
+                        if not chunk:  # fastchat api yield empty bytes on start and end
                             continue
                         if as_json:
                             try:
@@ -139,7 +165,7 @@ class ApiRequest:
                             except Exception as e:
                                 msg = f"接口返回json错误： ‘{chunk}’。错误信息是：{e}。"
                                 logger.error(f'{e.__class__.__name__}: {msg}',
-                                            exc_info=e if log_verbose else None)
+                                             exc_info=e if log_verbose else None)
                         else:
                             # print(chunk, end="", flush=True)
                             yield chunk
@@ -154,14 +180,14 @@ class ApiRequest:
             except Exception as e:
                 msg = f"API通信遇到错误：{e}"
                 logger.error(f'{e.__class__.__name__}: {msg}',
-                            exc_info=e if log_verbose else None)
+                             exc_info=e if log_verbose else None)
                 yield {"code": 500, "msg": msg}
 
         def ret_sync(response, as_json):
             try:
                 with response as r:
                     for chunk in r.iter_text(None):
-                        if not chunk: # fastchat api yield empty bytes on start and end
+                        if not chunk:  # fastchat api yield empty bytes on start and end
                             continue
                         if as_json:
                             try:
@@ -171,7 +197,7 @@ class ApiRequest:
                             except Exception as e:
                                 msg = f"接口返回json错误： ‘{chunk}’。错误信息是：{e}。"
                                 logger.error(f'{e.__class__.__name__}: {msg}',
-                                            exc_info=e if log_verbose else None)
+                                             exc_info=e if log_verbose else None)
                         else:
                             # print(chunk, end="", flush=True)
                             yield chunk
@@ -186,7 +212,7 @@ class ApiRequest:
             except Exception as e:
                 msg = f"API通信遇到错误：{e}"
                 logger.error(f'{e.__class__.__name__}: {msg}',
-                            exc_info=e if log_verbose else None)
+                             exc_info=e if log_verbose else None)
                 yield {"code": 500, "msg": msg}
 
         if self._use_async:
@@ -195,16 +221,17 @@ class ApiRequest:
             return ret_sync(response, as_json)
 
     def _get_response_value(
-        self,
-        response: httpx.Response,
-        as_json: bool = False,
-        value_func: Callable = None,
+            self,
+            response: httpx.Response,
+            as_json: bool = False,
+            value_func: Callable = None,
     ):
         '''
         转换同步或异步请求返回的响应
         `as_json`: 返回json
         `value_func`: 用户可以自定义返回值，该函数接受response或json
         '''
+
         def to_json(r):
             try:
                 return r.json()
@@ -212,7 +239,7 @@ class ApiRequest:
                 msg = "API未能返回正确的JSON。" + str(e)
                 if log_verbose:
                     logger.error(f'{e.__class__.__name__}: {msg}',
-                                exc_info=e if log_verbose else None)
+                                 exc_info=e if log_verbose else None)
                 return {"code": 500, "msg": msg}
 
         if value_func is None:
@@ -240,13 +267,13 @@ class ApiRequest:
     # 对话相关操作
 
     def chat_fastchat(
-        self,
-        messages: List[Dict],
-        stream: bool = True,
-        model: str = LLM_MODEL,
-        temperature: float = TEMPERATURE,
-        max_tokens: int = None,
-        **kwargs: Any,
+            self,
+            messages: List[Dict],
+            stream: bool = True,
+            model: str = LLM_MODEL,
+            temperature: float = TEMPERATURE,
+            max_tokens: int = None,
+            **kwargs: Any,
     ):
         '''
         对应api.py/chat/fastchat接口
@@ -272,15 +299,15 @@ class ApiRequest:
         return self._httpx_stream2generator(response)
 
     def chat_chat(
-        self,
-        query: str,
-        history: List[Dict] = [],
-        stream: bool = True,
-        model: str = LLM_MODEL,
-        temperature: float = TEMPERATURE,
-        max_tokens: int = None,
-        prompt_name: str = "default",
-        **kwargs,
+            self,
+            query: str,
+            history: List[Dict] = [],
+            stream: bool = True,
+            model: str = LLM_MODEL,
+            temperature: float = TEMPERATURE,
+            max_tokens: int = None,
+            prompt_name: str = "default",
+            **kwargs,
     ):
         '''
         对应api.py/chat/chat接口 #TODO: 考虑是否返回json
@@ -302,14 +329,14 @@ class ApiRequest:
         return self._httpx_stream2generator(response)
 
     def agent_chat(
-        self,
-        query: str,
-        history: List[Dict] = [],
-        stream: bool = True,
-        model: str = LLM_MODEL,
-        temperature: float = TEMPERATURE,
-        max_tokens: int = None,
-        prompt_name: str = "default",
+            self,
+            query: str,
+            history: List[Dict] = [],
+            stream: bool = True,
+            model: str = LLM_MODEL,
+            temperature: float = TEMPERATURE,
+            max_tokens: int = None,
+            prompt_name: str = "default",
     ):
         '''
         对应api.py/chat/agent_chat 接口
@@ -331,17 +358,17 @@ class ApiRequest:
         return self._httpx_stream2generator(response)
 
     def knowledge_base_chat(
-        self,
-        query: str,
-        knowledge_base_name: str,
-        top_k: int = VECTOR_SEARCH_TOP_K,
-        score_threshold: float = SCORE_THRESHOLD,
-        history: List[Dict] = [],
-        stream: bool = True,
-        model: str = LLM_MODEL,
-        temperature: float = TEMPERATURE,
-        max_tokens: int = None,
-        prompt_name: str = "default",
+            self,
+            query: str,
+            knowledge_base_name: str,
+            top_k: int = VECTOR_SEARCH_TOP_K,
+            score_threshold: float = SCORE_THRESHOLD,
+            history: List[Dict] = [],
+            stream: bool = True,
+            model: str = LLM_MODEL,
+            temperature: float = TEMPERATURE,
+            max_tokens: int = None,
+            prompt_name: str = "default",
     ):
         '''
         对应api.py/chat/knowledge_base_chat接口
@@ -370,16 +397,16 @@ class ApiRequest:
         return self._httpx_stream2generator(response, as_json=True)
 
     def search_engine_chat(
-        self,
-        query: str,
-        search_engine_name: str,
-        top_k: int = SEARCH_ENGINE_TOP_K,
-        history: List[Dict] = [],
-        stream: bool = True,
-        model: str = LLM_MODEL,
-        temperature: float = TEMPERATURE,
-        max_tokens: int = None,
-        prompt_name: str = "default",
+            self,
+            query: str,
+            search_engine_name: str,
+            top_k: int = SEARCH_ENGINE_TOP_K,
+            history: List[Dict] = [],
+            stream: bool = True,
+            model: str = LLM_MODEL,
+            temperature: float = TEMPERATURE,
+            max_tokens: int = None,
+            prompt_name: str = "default",
     ):
         '''
         对应api.py/chat/search_engine_chat接口
@@ -409,7 +436,7 @@ class ApiRequest:
     # 知识库相关操作
 
     def list_knowledge_bases(
-        self,
+            self,
     ):
         '''
         对应api.py/knowledge_base/list_knowledge_bases接口
@@ -420,10 +447,10 @@ class ApiRequest:
                                         value_func=lambda r: r.get("data", []))
 
     def create_knowledge_base(
-        self,
-        knowledge_base_name: str,
-        vector_store_type: str = DEFAULT_VS_TYPE,
-        embed_model: str = EMBEDDING_MODEL,
+            self,
+            knowledge_base_name: str,
+            vector_store_type: str = DEFAULT_VS_TYPE,
+            embed_model: str = EMBEDDING_MODEL,
     ):
         '''
         对应api.py/knowledge_base/create_knowledge_base接口
@@ -441,8 +468,8 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def delete_knowledge_base(
-        self,
-        knowledge_base_name: str,
+            self,
+            knowledge_base_name: str,
     ):
         '''
         对应api.py/knowledge_base/delete_knowledge_base接口
@@ -454,8 +481,8 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def list_kb_docs(
-        self,
-        knowledge_base_name: str,
+            self,
+            knowledge_base_name: str,
     ):
         '''
         对应api.py/knowledge_base/list_files接口
@@ -469,11 +496,11 @@ class ApiRequest:
                                         value_func=lambda r: r.get("data", []))
 
     def search_kb_docs(
-        self,
-        query: str,
-        knowledge_base_name: str,
-        top_k: int = VECTOR_SEARCH_TOP_K,
-        score_threshold: int = SCORE_THRESHOLD,
+            self,
+            query: str,
+            knowledge_base_name: str,
+            top_k: int = VECTOR_SEARCH_TOP_K,
+            score_threshold: int = SCORE_THRESHOLD,
     ) -> List:
         '''
         对应api.py/knowledge_base/search_docs接口
@@ -492,32 +519,33 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def upload_kb_docs(
-        self,
-        files: List[Union[str, Path, bytes]],
-        knowledge_base_name: str,
-        override: bool = False,
-        to_vector_store: bool = True,
-        chunk_size=CHUNK_SIZE,
-        chunk_overlap=OVERLAP_SIZE,
-        zh_title_enhance=ZH_TITLE_ENHANCE,
-        docs: Dict = {},
-        not_refresh_vs_cache: bool = False,
+            self,
+            files: List[Union[str, Path, bytes]],
+            knowledge_base_name: str,
+            override: bool = False,
+            to_vector_store: bool = True,
+            chunk_size=CHUNK_SIZE,
+            chunk_overlap=OVERLAP_SIZE,
+            zh_title_enhance=ZH_TITLE_ENHANCE,
+            docs: Dict = {},
+            not_refresh_vs_cache: bool = False,
     ):
         '''
         对应api.py/knowledge_base/upload_docs接口
         '''
+
         def convert_file(file, filename=None):
-            if isinstance(file, bytes): # raw bytes
+            if isinstance(file, bytes):  # raw bytes
                 file = BytesIO(file)
-            elif hasattr(file, "read"): # a file io like object
+            elif hasattr(file, "read"):  # a file io like object
                 filename = filename or file.name
-            else: # a local path
+            else:  # a local path
                 file = Path(file).absolute().open("rb")
                 filename = filename or os.path.split(file.name)[-1]
             return filename, file
 
         files = [convert_file(file) for file in files]
-        data={
+        data = {
             "knowledge_base_name": knowledge_base_name,
             "override": override,
             "to_vector_store": to_vector_store,
@@ -538,11 +566,11 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def delete_kb_docs(
-        self,
-        knowledge_base_name: str,
-        file_names: List[str],
-        delete_content: bool = False,
-        not_refresh_vs_cache: bool = False,
+            self,
+            knowledge_base_name: str,
+            file_names: List[str],
+            delete_content: bool = False,
+            not_refresh_vs_cache: bool = False,
     ):
         '''
         对应api.py/knowledge_base/delete_docs接口
@@ -560,8 +588,7 @@ class ApiRequest:
         )
         return self._get_response_value(response, as_json=True)
 
-
-    def update_kb_info(self,knowledge_base_name,kb_info):
+    def update_kb_info(self, knowledge_base_name, kb_info):
         '''
         对应api.py/knowledge_base/update_info接口
         '''
@@ -577,15 +604,15 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def update_kb_docs(
-        self,
-        knowledge_base_name: str,
-        file_names: List[str],
-        override_custom_docs: bool = False,
-        chunk_size=CHUNK_SIZE,
-        chunk_overlap=OVERLAP_SIZE,
-        zh_title_enhance=ZH_TITLE_ENHANCE,
-        docs: Dict = {},
-        not_refresh_vs_cache: bool = False,
+            self,
+            knowledge_base_name: str,
+            file_names: List[str],
+            override_custom_docs: bool = False,
+            chunk_size=CHUNK_SIZE,
+            chunk_overlap=OVERLAP_SIZE,
+            zh_title_enhance=ZH_TITLE_ENHANCE,
+            docs: Dict = {},
+            not_refresh_vs_cache: bool = False,
     ):
         '''
         对应api.py/knowledge_base/update_docs接口
@@ -611,14 +638,14 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def recreate_vector_store(
-        self,
-        knowledge_base_name: str,
-        allow_empty_kb: bool = True,
-        vs_type: str = DEFAULT_VS_TYPE,
-        embed_model: str = EMBEDDING_MODEL,
-        chunk_size=CHUNK_SIZE,
-        chunk_overlap=OVERLAP_SIZE,
-        zh_title_enhance=ZH_TITLE_ENHANCE,
+            self,
+            knowledge_base_name: str,
+            allow_empty_kb: bool = True,
+            vs_type: str = DEFAULT_VS_TYPE,
+            embed_model: str = EMBEDDING_MODEL,
+            chunk_size=CHUNK_SIZE,
+            chunk_overlap=OVERLAP_SIZE,
+            zh_title_enhance=ZH_TITLE_ENHANCE,
     ):
         '''
         对应api.py/knowledge_base/recreate_vector_store接口
@@ -643,8 +670,8 @@ class ApiRequest:
 
     # LLM模型相关操作
     def list_running_models(
-        self,
-        controller_address: str = None,
+            self,
+            controller_address: str = None,
     ):
         '''
         获取Fastchat中正运行的模型列表
@@ -657,7 +684,7 @@ class ApiRequest:
             "/llm_model/list_running_models",
             json=data,
         )
-        return self._get_response_value(response, as_json=True, value_func=lambda r:r.get("data", []))
+        return self._get_response_value(response, as_json=True, value_func=lambda r: r.get("data", []))
 
     def list_config_models(self) -> Dict[str, List[str]]:
         '''
@@ -666,23 +693,23 @@ class ApiRequest:
         response = self.post(
             "/llm_model/list_config_models",
         )
-        return self._get_response_value(response, as_json=True, value_func=lambda r:r.get("data", {}))
+        return self._get_response_value(response, as_json=True, value_func=lambda r: r.get("data", {}))
 
     def get_model_config(
-        self,
-        model_name: str = None,
+            self,
+            model_name: str = None,
     ) -> Dict:
         '''
         获取服务器上模型配置
         '''
-        data={
+        data = {
             "model_name": model_name,
         }
         response = self.post(
             "/llm_model/get_model_config",
             json=data,
         )
-        return self._get_response_value(response, as_json=True, value_func=lambda r:r.get("data", {}))
+        return self._get_response_value(response, as_json=True, value_func=lambda r: r.get("data", {}))
 
     def list_search_engines(self) -> List[str]:
         '''
@@ -691,12 +718,12 @@ class ApiRequest:
         response = self.post(
             "/server/list_search_engines",
         )
-        return self._get_response_value(response, as_json=True, value_func=lambda r:r.get("data", {}))
+        return self._get_response_value(response, as_json=True, value_func=lambda r: r.get("data", {}))
 
     def stop_llm_model(
-        self,
-        model_name: str,
-        controller_address: str = None,
+            self,
+            model_name: str,
+            controller_address: str = None,
     ):
         '''
         停止某个LLM模型。
@@ -714,10 +741,10 @@ class ApiRequest:
         return self._get_response_value(response, as_json=True)
 
     def change_llm_model(
-        self,
-        model_name: str,
-        new_model_name: str,
-        controller_address: str = None,
+            self,
+            model_name: str,
+            new_model_name: str,
+            controller_address: str = None,
     ):
         '''
         向fastchat controller请求切换LLM模型。
@@ -815,6 +842,14 @@ def check_error_msg(data: Union[str, dict, list], key: str = "errorMsg") -> str:
             return data[key]
         if "code" in data and data["code"] != 200:
             return data["msg"]
+
+    if isinstance(data, str):
+        try:
+            d = json.loads(data)
+            return check_error_msg(d)
+        except Exception as ex:
+            pass
+
     return ""
 
 
@@ -823,10 +858,17 @@ def check_success_msg(data: Union[str, dict, list], key: str = "msg") -> str:
     return error message if error occured when requests API
     '''
     if (isinstance(data, dict)
-        and key in data
-        and "code" in data
-        and data["code"] == 200):
+            and key in data
+            and "code" in data
+            and data["code"] == 200):
         return data[key]
+
+    if isinstance(data, str):
+        try:
+            d = json.loads(data)
+            return check_success_msg(d)
+        except Exception as ex:
+            pass
     return ""
 
 
