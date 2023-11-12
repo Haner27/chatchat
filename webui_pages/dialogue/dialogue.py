@@ -14,6 +14,7 @@ from configs import LANGCHAIN_LLM_MODEL
 from configs import LLM_MODEL
 from configs import PROMPT_TEMPLATES
 from webui_pages.utils import *
+from webui_pages.states import get_auth_state
 
 chat_box = ChatBox(
     assistant_avatar=os.path.join("img", "chatchat_icon_blue_square_v2.png")
@@ -21,7 +22,7 @@ chat_box = ChatBox(
 
 
 def get_messages_history(
-        history_len: int, content_in_expander: bool = False
+    history_len: int, content_in_expander: bool = False
 ) -> List[Dict]:
     """
     返回消息历史。
@@ -123,13 +124,13 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             if not v.get("provider") and k not in running_models:
                 available_models.append(k)
         for k, v in config_models.get(
-                "langchain", {}
+            "langchain", {}
         ).items():  # 列出LANGCHAIN_LLM_MODEL支持的模型
             available_models.append(k)
         llm_models = running_models + available_models
         if (
-                not st.session_state.get("cur_llm_model")
-                and not get_default_llm_model(api)[0]
+            not st.session_state.get("cur_llm_model")
+            and not get_default_llm_model(api)[0]
         ):
             index = 0
         else:
@@ -140,10 +141,10 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
         llm_model = "OpenAI"
 
         if (
-                st.session_state.get("prev_llm_model") != llm_model
-                and not llm_model in config_models.get("online", {})
-                and not llm_model in config_models.get("langchain", {})
-                and llm_model not in running_models
+            st.session_state.get("prev_llm_model") != llm_model
+            and not llm_model in config_models.get("online", {})
+            and not llm_model in config_models.get("langchain", {})
+            and llm_model not in running_models
         ):
             with st.spinner(f"正在加载模型： {llm_model}，请勿进行操作或刷新页面"):
                 prev_model = st.session_state.get("prev_llm_model")
@@ -232,6 +233,9 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             )
             for t in r:
                 if error_msg := check_error_msg(t):  # check whether error occured
+                    if error_msg == "Unauthorized":
+                        get_auth_state()["is_authorized"] = False
+                        st.rerun()
                     st.error(error_msg)
                     break
                 text += t
@@ -259,11 +263,11 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
                 ans += "正在思考... \n\n <span style='color:red'>该模型并没有进行Agent对齐，请更换支持Agent的模型获得更好的体验！</span>\n\n\n"
                 chat_box.update_msg(ans, element_index=0, streaming=False)
             for d in api.agent_chat(
-                    prompt,
-                    history=history,
-                    model=llm_model,
-                    prompt_name=prompt_template_name,
-                    temperature=temperature,
+                prompt,
+                history=history,
+                model=llm_model,
+                prompt_name=prompt_template_name,
+                temperature=temperature,
             ):
                 try:
                     d = json.loads(d)
@@ -293,14 +297,14 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             )
             text = ""
             for d in api.knowledge_base_chat(
-                    prompt,
-                    knowledge_base_name=selected_kb,
-                    top_k=kb_top_k,
-                    score_threshold=score_threshold,
-                    history=history,
-                    model=llm_model,
-                    prompt_name=prompt_template_name,
-                    temperature=temperature,
+                prompt,
+                knowledge_base_name=selected_kb,
+                top_k=kb_top_k,
+                score_threshold=score_threshold,
+                history=history,
+                model=llm_model,
+                prompt_name=prompt_template_name,
+                temperature=temperature,
             ):
                 if error_msg := check_error_msg(d):  # check whether error occured
                     st.error(error_msg)
@@ -320,13 +324,13 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             )
             text = ""
             for d in api.search_engine_chat(
-                    prompt,
-                    search_engine_name=search_engine,
-                    top_k=se_top_k,
-                    history=history,
-                    model=llm_model,
-                    prompt_name=prompt_template_name,
-                    temperature=temperature,
+                prompt,
+                search_engine_name=search_engine,
+                top_k=se_top_k,
+                history=history,
+                model=llm_model,
+                prompt_name=prompt_template_name,
+                temperature=temperature,
             ):
                 if error_msg := check_error_msg(d):  # check whether error occured
                     st.error(error_msg)
@@ -344,8 +348,8 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
         cols = st.columns(2)
         export_btn = cols[0]
         if cols[1].button(
-                "清空对话",
-                use_container_width=True,
+            "清空对话",
+            use_container_width=True,
         ):
             chat_box.reset_history()
             st.experimental_rerun()

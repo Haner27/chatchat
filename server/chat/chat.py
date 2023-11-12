@@ -45,8 +45,8 @@ async def chat(
         prompt_name=prompt_name,
     )
     # save all args into a json file
-    with open("args.pkl", "wb") as f:
-        pickle.dump(args, f)
+    # with open("args.pkl", "wb") as f:
+    #    pickle.dump(args, f)
 
     history = [History.from_data(h) for h in history]
 

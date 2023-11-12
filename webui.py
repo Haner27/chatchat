@@ -5,6 +5,8 @@ from webui_pages import *
 import os
 from configs import VERSION
 from server.utils import api_address
+from webui_pages.states import get_auth_state
+from server.common.token import Token
 import pdfplumber
 
 api = ApiRequest(base_url=api_address())
@@ -34,24 +36,30 @@ def auth(api):
 
 # Define the Streamlit app
 def app():
+    stage = os.getenv("STAGE", "dev")
+    if not get_auth_state()["is_authorized"]:
+        auth(api)
+        return
+
     pages = {
         "对话": {
             "icon": "chat",
             "func": chat,
-        },
-        "文档对话": {
-            "icon": "chat",
-            "func": pdf_chat,
-        },
-        "知识库管理": {
-            "icon": "hdd-stack",
-            "func": real_knowledge_base_page,
-        },
-        "认证": {
-            "icon": "chat",
-            "func": auth,
-        },
+        }
     }
+    if stage == "dev":
+        pages.update(
+            {
+                "文档对话": {
+                    "icon": "chat",
+                    "func": pdf_chat,
+                },
+                "知识库管理": {
+                    "icon": "hdd-stack",
+                    "func": real_knowledge_base_page,
+                },
+            }
+        )
 
     with st.sidebar:
         options = list(pages)
