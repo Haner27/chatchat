@@ -7,8 +7,8 @@ class UserModel(Base):
     """
     用户表
     """
-    __tablename__ = 'user'
-    id = Column(Integer, primary_key=True, autoincrement=True, comment='知识库ID')
+    __tablename__ = 'auth_user'
+    id = Column(Integer, primary_key=True, autoincrement=True, comment='用户 ID')
     nickname = Column(String(50), comment='nickname')
     email = Column(String(50), comment='email')
     token = Column(String(256), comment='token')
