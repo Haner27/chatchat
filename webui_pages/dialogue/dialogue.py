@@ -66,10 +66,7 @@ def get_default_llm_model(api: ApiRequest) -> (str, bool):
 def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: str = None):
     if not chat_box.chat_inited:
         default_model = get_default_llm_model(api)[0]
-        st.toast(
-            f"欢迎使用 [`Langchain-Chatchat`](https://github.com/chatchat-space/Langchain-Chatchat) ! \n\n"
-            f"当前运行的模型`{default_model}`, 您可以开始提问了."
-        )
+        st.toast(f"欢迎使用 [`AnotherAI`]! \n\n" f"当前运行的模型`OpenAI`, 您可以开始提问了.")
         chat_box.init_session()
 
     with st.sidebar:
@@ -165,7 +162,7 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             PROMPT_TEMPLATES[index_prompt[dialogue_mode]].keys()
         )
         prompt_template_name = prompt_templates_kb_list[0]
-        if "prompt_template_select" not in st.session_state:
+        if not hasattr(st.session_state, "prompt_template_select"):
             st.session_state.prompt_template_select = prompt_templates_kb_list[0]
 
         def prompt_change():
@@ -173,7 +170,7 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             st.toast(text)
 
         prompt_template_select = "default"
-        prompt_template_name = st.session_state.prompt_template_select
+        # prompt_template_name = st.session_state.prompt_template_select
         temperature = 0.7
         history_len = 3
 

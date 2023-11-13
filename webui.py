@@ -5,9 +5,10 @@ from webui_pages import *
 import os
 from configs import VERSION
 from server.utils import api_address
-from webui_pages.states import get_auth_state
+from webui_pages.states import get_auth_state, cookie_manager
 from server.common.token import Token
 import pdfplumber
+from datetime import datetime
 
 api = ApiRequest(base_url=api_address())
 
@@ -35,7 +36,24 @@ def auth(api):
 
 
 # Define the Streamlit app
+def get_state_auth_token():
+    if not hasattr(st.session_state, "auth_token"):
+        return None
+    return st.session_state.auth_token
+
+
 def app():
+    cookie = "chatchat_"
+
+    if get_state_auth_token() and not cookie_manager().get(cookie=cookie):
+        cookie_manager().set(
+            cookie,
+            get_state_auth_token(),
+            expires_at=datetime.now() + timedelta(days=7),
+        )
+    elif cookie_manager().get(cookie=cookie):
+        st.session_state.auth_token = cookie_manager().get(cookie=cookie)
+
     stage = os.getenv("STAGE", "dev")
     if not get_auth_state()["is_authorized"]:
         auth(api)
