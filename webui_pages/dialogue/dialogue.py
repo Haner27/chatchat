@@ -251,7 +251,6 @@ def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: s
             for t in r:
                 if error_msg := check_error_msg(t):  # check whether error occured
                     if error_msg == "Unauthorized":
-                        get_auth_state()["is_authorized"] = False
                         st.rerun()
                     st.error(error_msg)
                     break

@@ -9,6 +9,9 @@ from webui_pages.states import get_auth_state, cookie_manager
 from server.common.token import Token
 import pdfplumber
 from datetime import datetime
+from streamlit.runtime.scriptrunner import get_script_run_ctx
+import urllib.parse
+
 
 api = ApiRequest(base_url=api_address())
 
@@ -42,20 +45,34 @@ def get_state_auth_token():
     return st.session_state.auth_token
 
 
-def app():
+def get_cookie():
     cookie = "chatchat_"
+    ctx = get_script_run_ctx()
+    server = st.runtime.get_instance().get_client(ctx.session_id)
+    if cookie in server.cookies:
+        return urllib.parse.unquote(server.cookies[cookie].value)
+    else:
+        return None
 
-    if get_state_auth_token() and not cookie_manager().get(cookie=cookie):
-        cookie_manager().set(
-            cookie,
-            get_state_auth_token(),
-            expires_at=datetime.now() + timedelta(days=7),
-        )
-    elif cookie_manager().get(cookie=cookie):
-        st.session_state.auth_token = cookie_manager().get(cookie=cookie)
+
+def set_cookie(token):
+    cookie = "chatchat_"
+    cookie_manager().set(cookie, token, expires_at=datetime.now() + timedelta(days=7))
+
+
+def app():
+    print(f"state token: {get_state_auth_token()}")
+    print(f"cookie token: {get_cookie()}")
+    ck = get_cookie()
+
+    if ck:
+        st.session_state.auth_token = ck
+
+    if not ck and get_state_auth_token():
+        set_cookie(get_state_auth_token())
 
     stage = os.getenv("STAGE", "dev")
-    if not get_auth_state()["is_authorized"]:
+    if not ck and not get_state_auth_token():
         auth(api)
         return
 

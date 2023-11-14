@@ -1,0 +1,15 @@
+[supervisord]
+nodaemon=false
+
+[program:cc]
+command=python startup.py -a
+autostart=true
+autorestart=true
+stderr_logfile=error.log
+stdout_logfile=output.log
+
+[inet_http_server]
+port=127.0.0.1:9001
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface

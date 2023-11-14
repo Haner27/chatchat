@@ -2,6 +2,8 @@ import streamlit as st
 from server.common.token import Token
 from webui_pages.utils import *
 from webui_pages.states import get_auth_state
+from webui_pages.states import get_auth_state, cookie_manager
+import time
 
 
 def auth_page(api: ApiRequest):
@@ -18,11 +20,8 @@ def auth_page(api: ApiRequest):
             st.toast("登录失败")
             st.error("登录失败~~")
         else:
-
             st.toast("登录成功")
             st.success("登录成功~~")
             result = True
-
-        get_auth_state()["is_authorized"] = result
-        st.session_state.auth_token = token
-        st.rerun()
+            st.session_state.auth_token = token
+            st.rerun()
