@@ -1,12 +1,24 @@
-from configs import (EMBEDDING_MODEL, DEFAULT_VS_TYPE, ZH_TITLE_ENHANCE,
-                     CHUNK_SIZE, OVERLAP_SIZE,
-                    logger, log_verbose)
-from server.knowledge_base.utils import (get_file_path, list_kbs_from_folder,
-                                        list_files_from_folder,files2docs_in_thread,
-                                        KnowledgeFile,)
+from configs import (
+    EMBEDDING_MODEL,
+    DEFAULT_VS_TYPE,
+    ZH_TITLE_ENHANCE,
+    CHUNK_SIZE,
+    OVERLAP_SIZE,
+    logger,
+    log_verbose,
+)
+from server.knowledge_base.utils import (
+    get_file_path,
+    list_kbs_from_folder,
+    list_files_from_folder,
+    files2docs_in_thread,
+    KnowledgeFile,
+)
 from server.knowledge_base.kb_service.base import KBServiceFactory
 from server.db.repository.knowledge_file_repository import add_file_to_db
 from server.db.base import Base, engine
+from server.db.models.chat_log import ChatLogModel
+from server.db.models.user_model import UserModel
 import os
 from typing import Literal, Any, List
 
@@ -28,8 +40,9 @@ def file_to_kbfile(kb_name: str, files: List[str]) -> List[KnowledgeFile]:
             kb_files.append(kb_file)
         except Exception as e:
             msg = f"{e}，已跳过"
-            logger.error(f'{e.__class__.__name__}: {msg}',
-                         exc_info=e if log_verbose else None)
+            logger.error(
+                f"{e.__class__.__name__}: {msg}", exc_info=e if log_verbose else None
+            )
     return kb_files
 
 
@@ -42,19 +55,22 @@ def folder2db(
     chunk_overlap: int = OVERLAP_SIZE,
     zh_title_enhance: bool = ZH_TITLE_ENHANCE,
 ):
-    '''
+    """
     use existed files in local folder to populate database and/or vector store.
     set parameter `mode` to:
         recreate_vs: recreate all vector store and fill info to database using existed files in local folder
         fill_info_only(disabled): do not create vector store, fill info to db using existed files only
         update_in_db: update vector store and database info using local files that existed in database only
         increament: create vector store and database info for local files that not existed in database only
-    '''
+    """
+
     def files2vs(kb_name: str, kb_files: List[KnowledgeFile]):
-        for success, result in files2docs_in_thread(kb_files,
-                                                    chunk_size=chunk_size,
-                                                    chunk_overlap=chunk_overlap,
-                                                    zh_title_enhance=zh_title_enhance):
+        for success, result in files2docs_in_thread(
+            kb_files,
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            zh_title_enhance=zh_title_enhance,
+        ):
             if success:
                 _, filename, docs = result
                 print(f"正在将 {kb_name}/{filename} 添加到向量库，共包含{len(docs)}条文档")
@@ -103,10 +119,10 @@ def folder2db(
 
 
 def prune_db_docs(kb_names: List[str]):
-    '''
+    """
     delete docs in database that not existed in local folder.
     it is used to delete database docs after user deleted some doc files in file browser
-    '''
+    """
     for kb_name in kb_names:
         kb = KBServiceFactory.get_service_by_name(kb_name)
         if kb and kb.exists():
@@ -121,10 +137,10 @@ def prune_db_docs(kb_names: List[str]):
 
 
 def prune_folder_files(kb_names: List[str]):
-    '''
+    """
     delete doc files in local folder that not existed in database.
     is is used to free local disk space by delete unused doc files.
-    '''
+    """
     for kb_name in kb_names:
         kb = KBServiceFactory.get_service_by_name(kb_name)
         if kb and kb.exists():
