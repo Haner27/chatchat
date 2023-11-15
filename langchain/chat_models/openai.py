@@ -350,6 +350,7 @@ class ChatOpenAI(BaseChatModel):
         **kwargs: Any,
     ) -> ChatResult:
         should_stream = stream if stream is not None else self.streaming
+
         if should_stream:
             stream_iter = self._stream(
                 messages, stop=stop, run_manager=run_manager, **kwargs

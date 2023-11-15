@@ -46,13 +46,14 @@ async def openai_chat(msg: OpenAiChatMsgIn):
                 if response.choices:
                     answer = response.choices[0].message.content
                     print(answer)
-                    yield(answer)
+                    yield (answer)
         except Exception as e:
             msg = f"获取ChatCompletion时出错：{e}"
-            logger.error(f'{e.__class__.__name__}: {msg}',
-                         exc_info=e if log_verbose else None)
+            logger.error(
+                f"{e.__class__.__name__}: {msg}", exc_info=e if log_verbose else None
+            )
 
     return StreamingResponse(
         get_response(msg),
-        media_type='text/event-stream',
+        media_type="text/event-stream",
     )

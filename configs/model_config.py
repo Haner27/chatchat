@@ -20,7 +20,7 @@ ONLINE_LLM_MODEL = {
 }
 LANGCHAIN_LLM_MODEL = {
     "OpenAI": {
-        "model_name": "gpt-3.5-turbo",
+        "model_name": "gpt-4",
         "api_base_url": "https://api.openai.com/v1",
         "api_key": OPENAI_API_KEY,
         "openai_proxy": "http://127.0.0.1:1088",

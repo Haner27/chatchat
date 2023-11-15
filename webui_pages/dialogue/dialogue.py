@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from typing import Dict
 from typing import List
-
+import random
 import streamlit as st
 
 from streamlit_chatbox import *
@@ -18,8 +18,17 @@ from server.db.repository.chat_log_repository import create_chat_log
 from webui_pages.utils import *
 from webui_pages.states import get_auth_state
 
+user_avatar_pool = [
+    os.path.join("img", x)
+    for x in os.listdir("img")
+    if x.startswith("user") and x.endswith("png")
+]
+
 chat_box = ChatBox(
-    assistant_avatar=os.path.join("img", "chatchat_icon_blue_square_v2.png")
+    chat_name="baozi",
+    greetings="你好，我是包子，你可以问我任何问题。",
+    assistant_avatar=os.path.join("img", "baozi.png"),
+    user_avatar=os.path.join("img", "user.png"),
 )
 
 
@@ -82,9 +91,11 @@ def save_chat_log(req: str, resp: str, dialogue_mode: str):
 
 
 def dialogue_page(api: ApiRequest, dialogue_mode: str = "LLM 对话", kb_name: str = None):
+
     if not chat_box.chat_inited:
         default_model = get_default_llm_model(api)[0]
-        st.toast(f"欢迎使用 [`AnotherAI`]! \n\n" f"当前运行的模型`OpenAI`, 您可以开始提问了.")
+        st.toast(f"欢迎使用 [`AnotherAI`]! \n\n" f"当前运行的模型`OpenAI gpt-4`, 您可以开始提问了.")
+        # all png file starts with user
         chat_box.init_session()
 
     with st.sidebar:
