@@ -1,4 +1,4 @@
 git pull
-bash shutdonw_all.sh
+bash shutdown_all.sh
 sleep 1
 nohup python startup -a &
