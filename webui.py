@@ -10,7 +10,6 @@ from server.common.token import Token
 import pdfplumber
 from datetime import datetime
 from streamlit.runtime.scriptrunner import get_script_run_ctx
-import streamlit.components.v1 as components
 import urllib.parse
 
 api = ApiRequest(base_url=api_address())
@@ -23,16 +22,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="auto",
 )
-
-
-def inject_head_tag(file):
-    with open(file) as f:
-        html_code = f.read()
-        components.html(html_code, height=0)
-
-
-# connect baidu analytics
-inject_head_tag("baidu_tongji.js")
 
 
 def pdf_chat(api):
