@@ -12,8 +12,28 @@ from datetime import datetime
 from streamlit.runtime.scriptrunner import get_script_run_ctx
 import urllib.parse
 
-
 api = ApiRequest(base_url=api_address())
+
+favicon = os.path.join("img", "baozi.png")
+# setting the tag and favicon
+st.set_page_config(
+    page_title="BunAI",
+    page_icon=favicon,
+    layout="wide",
+    initial_sidebar_state="auto",
+)
+
+
+def inject_head_tag(file):
+    with open(file) as f:
+        lines = f.readlines()
+        st.markdown(
+            "<head>\n{}\n</head>".format("".join(lines)), unsafe_allow_html=True
+        )
+
+
+# connect baidu analytics
+inject_head_tag("baidu_tongji.js")
 
 
 def pdf_chat(api):
@@ -61,6 +81,7 @@ def set_cookie(token):
 
 
 def app():
+
     print(f"state token: {get_state_auth_token()}")
     print(f"cookie token: {get_cookie()}")
     ck = get_cookie()
