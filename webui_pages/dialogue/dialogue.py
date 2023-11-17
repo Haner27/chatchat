@@ -16,7 +16,6 @@ from configs import PROMPT_TEMPLATES
 from server.common.token import Token
 from server.db.repository.chat_log_repository import create_chat_log
 from webui_pages.utils import *
-from webui_pages.states import get_auth_state
 
 user_avatar_pool = [
     os.path.join("img", x)

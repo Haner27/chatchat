@@ -1,15 +1,16 @@
 import streamlit as st
+
+from server.db.repository.user_repository import get_user_by_token
+from webui_pages.auth.auth import get_cookie, get_state_auth_token, set_cookie
 from webui_pages.utils import *
 from streamlit_option_menu import option_menu
 from webui_pages import *
 import os
 from configs import VERSION
 from server.utils import api_address
-from webui_pages.states import get_auth_state, cookie_manager
 from server.common.token import Token
 import pdfplumber
 from datetime import datetime
-from streamlit.runtime.scriptrunner import get_script_run_ctx
 import urllib.parse
 
 api = ApiRequest(base_url=api_address())
@@ -46,42 +47,19 @@ def auth(api):
     auth_page(api)
 
 
-# Define the Streamlit app
-def get_state_auth_token():
-    if not hasattr(st.session_state, "auth_token"):
-        return None
-    return st.session_state.auth_token
-
-
-def get_cookie():
-    cookie = "chatchat_"
-    ctx = get_script_run_ctx()
-    server = st.runtime.get_instance().get_client(ctx.session_id)
-    if cookie in server.cookies:
-        return urllib.parse.unquote(server.cookies[cookie].value)
-    else:
-        return None
-
-
-def set_cookie(token):
-    cookie = "chatchat_"
-    cookie_manager().set(cookie, token, expires_at=datetime.now() + timedelta(days=7))
-
-
 def app():
+    # st.session_state.auth_token = get_cookie()
+    # token = get_state_auth_token()
 
-    print(f"state token: {get_state_auth_token()}")
-    print(f"cookie token: {get_cookie()}")
-    ck = get_cookie()
-
-    if ck:
-        st.session_state.auth_token = ck
-
-    if not ck and get_state_auth_token():
-        set_cookie(get_state_auth_token())
-
-    stage = os.getenv("STAGE", "dev")
-    if not ck and not get_state_auth_token():
+    token = get_cookie() or get_state_auth_token()
+    if token:
+        user = get_user_by_token(token)
+        if user:  # 验证有效后
+            set_cookie(token)
+        else:
+            auth(api)
+            return
+    else:
         auth(api)
         return
 
@@ -91,6 +69,7 @@ def app():
             "func": chat,
         }
     }
+    stage = os.getenv("STAGE", "dev")
     if stage == "dev":
         pages.update(
             {

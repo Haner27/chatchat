@@ -7,11 +7,11 @@ class UserModel(Base):
     """
     用户表
     """
-    __tablename__ = 'auth_user'
+    __tablename__ = 'auth_user_new'
     id = Column(Integer, primary_key=True, autoincrement=True, comment='用户 ID')
     nickname = Column(String(50), comment='nickname')
     email = Column(String(50), comment='email')
-    token = Column(String(256), comment='token')
+    token = Column(String(256), unique=True, comment='token')
     created_at = Column(DateTime, default=func.now(), comment='创建时间')
     updated_at = Column(DateTime, default=func.now(), comment='修改时间')
 

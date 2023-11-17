@@ -36,20 +36,6 @@ from functools import wraps
 set_httpx_config()
 
 
-def add_cookie(func):
-    @wraps(func)
-    def deco(*args, **kwargs):
-        auth_token = st.session_state.get('auth_token')
-        print(auth_token)
-        if 'cookies' not in kwargs:
-            kwargs['cookies'] = {'auth_token': auth_token}
-        else:
-            kwargs['cookies']['auth_token'] = auth_token
-        return func(*args, **kwargs)
-
-    return deco
-
-
 class ApiRequest:
     '''
     api.py调用的封装（同步模式）,简化api调用方式
@@ -73,7 +59,6 @@ class ApiRequest:
                                             timeout=self.timeout)
         return self._client
 
-    @add_cookie
     def get(
             self,
             url: str,
@@ -94,7 +79,6 @@ class ApiRequest:
                              exc_info=e if log_verbose else None)
                 retry -= 1
 
-    @add_cookie
     def post(
             self,
             url: str,
@@ -104,10 +88,6 @@ class ApiRequest:
             stream: bool = False,
             **kwargs: Any
     ) -> Union[httpx.Response, Iterator[httpx.Response], None]:
-        auth_token = st.session_state.get('auth_token')
-        if 'cookies' not in kwargs:
-            kwargs['cookies'] = {'auth_token': auth_token}
-
         while retry > 0:
             try:
                 if stream:
@@ -120,7 +100,6 @@ class ApiRequest:
                              exc_info=e if log_verbose else None)
                 retry -= 1
 
-    @add_cookie
     def delete(
             self,
             url: str,
