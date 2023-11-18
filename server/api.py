@@ -72,17 +72,6 @@ def create_app():
             allow_headers=["*"],
         )
 
-    # 定义中间件
-    @app.middleware("http")
-    async def auth_middleware(request: Request, call_next):
-        auth_token = request.cookies.get("chatchat_") or request.cookies.get(
-            "auth_token"
-        )
-        if not Token(auth_token).is_valid:
-            return JSONResponse(content={"errorMsg": "Unauthorized"}, status_code=401)
-        response = await call_next(request)
-        return response
-
     app.get("/", response_model=BaseResponse, summary="swagger 文档")(document)
 
     # Tag: Chat

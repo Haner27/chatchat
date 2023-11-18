@@ -24,7 +24,6 @@ def get_cookie():
     cookie = "chatchat_"
     ctx = get_script_run_ctx()
     server = st.runtime.get_instance().get_client(ctx.session_id)
-    print(server.cookies, 222222222)
     if cookie in server.cookies:
         value = urllib.parse.unquote(server.cookies[cookie].value)
         st.session_state.auth_token = value
